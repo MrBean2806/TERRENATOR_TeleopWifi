@@ -1,0 +1,40 @@
+[5.189s] Invoking command in '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/examples_rclpy_minimal_action_client': PYTHONPATH=/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/examples_rclpy_minimal_action_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/examples_rclpy_minimal_action_client/build --no-deps symlink_data
+[6.001s] running develop
+[6.035s] /usr/lib/python3/dist-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[6.035s] !!
+[6.035s] 
+[6.035s]         ********************************************************************************
+[6.035s]         Please avoid running ``setup.py`` and ``easy_install``.
+[6.036s]         Instead, use pypa/build, pypa/installer or other
+[6.036s]         standards-based tools.
+[6.036s] 
+[6.036s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[6.036s]         ********************************************************************************
+[6.036s] 
+[6.036s] !!
+[6.040s]   easy_install.initialize_options(self)
+[6.466s] running egg_info
+[6.466s] creating examples_rclpy_minimal_action_client.egg-info
+[6.508s] writing examples_rclpy_minimal_action_client.egg-info/PKG-INFO
+[6.509s] writing dependency_links to examples_rclpy_minimal_action_client.egg-info/dependency_links.txt
+[6.512s] writing entry points to examples_rclpy_minimal_action_client.egg-info/entry_points.txt
+[6.512s] writing requirements to examples_rclpy_minimal_action_client.egg-info/requires.txt
+[6.512s] writing top-level names to examples_rclpy_minimal_action_client.egg-info/top_level.txt
+[6.512s] writing manifest file 'examples_rclpy_minimal_action_client.egg-info/SOURCES.txt'
+[6.619s] reading manifest file 'examples_rclpy_minimal_action_client.egg-info/SOURCES.txt'
+[6.622s] writing manifest file 'examples_rclpy_minimal_action_client.egg-info/SOURCES.txt'
+[6.673s] running build_ext
+[6.673s] Creating /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.12/site-packages/examples-rclpy-minimal-action-client.egg-link (link to .)
+[6.676s] Installing client script to /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[6.677s] Installing client_asyncio script to /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[6.680s] Installing client_cancel script to /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[6.680s] Installing client_not_composable script to /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[6.680s] 
+[6.681s] Installed /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/examples_rclpy_minimal_action_client
+[6.681s] running symlink_data
+[6.681s] creating /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_action_client/share/ament_index
+[6.681s] creating /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_action_client/share/ament_index/resource_index
+[6.681s] creating /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_action_client/share/ament_index/resource_index/packages
+[6.681s] symbolically linking /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/examples_rclpy_minimal_action_client/resource/examples_rclpy_minimal_action_client -> /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_action_client/share/ament_index/resource_index/packages
+[6.682s] symbolically linking /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/examples_rclpy_minimal_action_client/package.xml -> /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_action_client/share/examples_rclpy_minimal_action_client
+[7.059s] Invoked command in '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/examples_rclpy_minimal_action_client' returned '0': PYTHONPATH=/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/examples_rclpy_minimal_action_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/examples_rclpy_minimal_action_client/build --no-deps symlink_data

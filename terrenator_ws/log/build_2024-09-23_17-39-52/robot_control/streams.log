@@ -1,0 +1,34 @@
+[0.015s] Invoking command in '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/build/robot_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/build/robot_control -- -j8 -l8
+[0.047s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.077s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.192s] -- Found rclcpp: 28.1.3 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.228s] -- Found rosidl_generator_c: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.238s] -- Found rosidl_generator_cpp: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.250s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.266s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.336s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.337s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.404s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.484s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.550s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.559s] -- Found rosidl_adapter: 4.6.3 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.572s] [31mCMake Error at /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake:141 (find_package):
+[0.572s]   Could not find a package configuration file provided by "boost_asio"
+[0.572s]   (requested version 1.83.0) with any of the following names:
+[0.572s] 
+[0.572s]     boost_asioConfig.cmake
+[0.572s]     boost_asio-config.cmake
+[0.572s] 
+[0.573s]   Add the installation prefix of "boost_asio" to CMAKE_PREFIX_PATH or set
+[0.573s]   "boost_asio_DIR" to a directory containing one of the above files.  If
+[0.573s]   "boost_asio" provides a separate development package or SDK, be sure it has
+[0.573s]   been installed.
+[0.573s] Call Stack (most recent call first):
+[0.573s]   /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake:262 (boost_find_component)
+[0.573s]   /usr/share/cmake-3.28/Modules/FindBoost.cmake:594 (find_package)
+[0.573s]   CMakeLists.txt:23 (find_package)
+[0.573s] 
+[0.573s] [0m
+[0.573s] -- Configuring incomplete, errors occurred!
+[0.579s] gmake: *** [Makefile:856: cmake_check_build_system] Error 1
+[0.581s] Invoked command in '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/build/robot_control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/build/robot_control -- -j8 -l8

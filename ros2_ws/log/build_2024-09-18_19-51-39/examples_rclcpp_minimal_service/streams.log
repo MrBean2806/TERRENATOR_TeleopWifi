@@ -1,0 +1,67 @@
+[0.033s] Invoking command in '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/examples_rclcpp_minimal_service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/src/examples/rclcpp/services/minimal_service -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_service
+[2.901s] -- The C compiler identification is GNU 13.2.0
+[2.903s] -- The CXX compiler identification is GNU 13.2.0
+[2.903s] -- Detecting C compiler ABI info
+[2.903s] -- Detecting C compiler ABI info - done
+[2.904s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.904s] -- Detecting C compile features
+[2.904s] -- Detecting C compile features - done
+[2.905s] -- Detecting CXX compiler ABI info
+[2.905s] -- Detecting CXX compiler ABI info - done
+[2.905s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.905s] -- Detecting CXX compile features
+[2.905s] -- Detecting CXX compile features - done
+[2.906s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.906s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.906s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.908s] -- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+[2.909s] -- Found rosidl_generator_c: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.909s] -- Found rosidl_generator_cpp: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.909s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.909s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.909s] -- Found rclcpp: 28.1.3 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.910s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.910s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.910s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.910s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.910s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.911s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.911s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.911s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.911s] -- Configured cppcheck include dirs: 
+[2.911s] -- Configured cppcheck exclude dirs and/or files: 
+[2.912s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.912s] -- Configured cpplint exclude dirs and/or files: 
+[2.919s] -- Added test 'lint_cmake' to check CMake code style
+[2.919s] -- Added test 'uncrustify' to check C / C++ code style
+[2.920s] -- Configured uncrustify additional arguments: 
+[2.920s] -- Added test 'xmllint' to check XML markup files
+[2.921s] -- Configuring done (2.8s)
+[2.921s] -- Generating done (0.0s)
+[2.921s] -- Build files have been written to: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/examples_rclcpp_minimal_service
+[2.927s] Invoked command in '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/examples_rclcpp_minimal_service' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/src/examples/rclcpp/services/minimal_service -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_service
+[2.928s] Invoking command in '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/examples_rclcpp_minimal_service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/examples_rclcpp_minimal_service -- -j8 -l8
+[3.111s] [ 50%] [32mBuilding CXX object CMakeFiles/service_main.dir/main.cpp.o[0m
+[194.610s] [100%] [32m[1mLinking CXX executable service_main[0m
+[196.330s] [100%] Built target service_main
+[210.491s] Invoked command in '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/examples_rclcpp_minimal_service' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/examples_rclcpp_minimal_service -- -j8 -l8
+[215.842s] Invoking command in '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/examples_rclcpp_minimal_service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/examples_rclcpp_minimal_service
+[221.386s] -- Install configuration: ""
+[221.386s] -- Execute custom install script
+[221.386s] -- Symlinking: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_service/lib/examples_rclcpp_minimal_service/service_main
+[221.387s] -- Symlinking: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_service/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_service
+[221.387s] -- Symlinking: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_service/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_service
+[221.388s] -- Symlinking: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/ament_prefix_path.sh
+[221.388s] -- Symlinking: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/ament_prefix_path.dsv
+[221.388s] -- Symlinking: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/path.sh
+[221.389s] -- Symlinking: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/path.dsv
+[221.389s] -- Symlinking: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.bash
+[221.389s] -- Symlinking: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.sh
+[221.390s] -- Symlinking: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.zsh
+[221.390s] -- Symlinking: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.dsv
+[221.390s] -- Symlinking: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/package.dsv
+[221.391s] -- Symlinking: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_service/share/ament_index/resource_index/packages/examples_rclcpp_minimal_service
+[221.391s] -- Symlinking: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/cmake/examples_rclcpp_minimal_serviceConfig.cmake
+[221.391s] -- Symlinking: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/cmake/examples_rclcpp_minimal_serviceConfig-version.cmake
+[221.392s] -- Symlinking: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/package.xml
+[222.550s] Invoked command in '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/examples_rclcpp_minimal_service' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/examples_rclcpp_minimal_service

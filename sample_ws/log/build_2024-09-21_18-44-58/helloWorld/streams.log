@@ -1,0 +1,52 @@
+[0.012s] Invoking command in '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/build/helloWorld': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/src/helloWorld -DCMAKE_INSTALL_PREFIX=/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/helloWorld
+[0.131s] -- The C compiler identification is GNU 13.2.0
+[0.195s] -- The CXX compiler identification is GNU 13.2.0
+[0.216s] -- Detecting C compiler ABI info
+[0.311s] -- Detecting C compiler ABI info - done
+[0.323s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.323s] -- Detecting C compile features
+[0.324s] -- Detecting C compile features - done
+[0.332s] -- Detecting CXX compiler ABI info
+[0.428s] -- Detecting CXX compiler ABI info - done
+[0.438s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.439s] -- Detecting CXX compile features
+[0.439s] -- Detecting CXX compile features - done
+[0.442s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.585s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.703s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.776s] WARNING: Package name "helloWorld" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[0.810s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.810s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/src/helloWorld/include>
+[0.811s] -- Configured cppcheck exclude dirs and/or files: 
+[0.812s] -- Added test 'lint_cmake' to check CMake code style
+[0.813s] -- Added test 'uncrustify' to check C / C++ code style
+[0.813s] -- Configured uncrustify additional arguments: 
+[0.814s] -- Added test 'xmllint' to check XML markup files
+[0.815s] -- Configuring done (0.8s)
+[0.820s] -- Generating done (0.0s)
+[0.821s] -- Build files have been written to: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/build/helloWorld
+[0.827s] Invoked command in '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/build/helloWorld' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/src/helloWorld -DCMAKE_INSTALL_PREFIX=/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/helloWorld
+[0.828s] Invoking command in '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/build/helloWorld': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/build/helloWorld -- -j8 -l8
+[0.875s] [ 50%] [32mBuilding CXX object CMakeFiles/hello_node.dir/src/hello_node.cpp.o[0m
+[0.910s] [100%] [32m[1mLinking CXX executable hello_node[0m
+[0.958s] [100%] Built target hello_node
+[0.969s] Invoked command in '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/build/helloWorld' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/build/helloWorld -- -j8 -l8
+[0.999s] Invoking command in '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/build/helloWorld': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/build/helloWorld
+[1.007s] -- Install configuration: ""
+[1.007s] -- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/helloWorld/lib/helloWorld/hello_node
+[1.008s] -- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/helloWorld/share/ament_index/resource_index/package_run_dependencies/helloWorld
+[1.008s] -- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/helloWorld/share/ament_index/resource_index/parent_prefix_path/helloWorld
+[1.008s] -- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/helloWorld/share/helloWorld/environment/ament_prefix_path.sh
+[1.008s] -- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/helloWorld/share/helloWorld/environment/ament_prefix_path.dsv
+[1.008s] -- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/helloWorld/share/helloWorld/environment/path.sh
+[1.008s] -- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/helloWorld/share/helloWorld/environment/path.dsv
+[1.009s] -- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/helloWorld/share/helloWorld/local_setup.bash
+[1.009s] -- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/helloWorld/share/helloWorld/local_setup.sh
+[1.009s] -- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/helloWorld/share/helloWorld/local_setup.zsh
+[1.009s] -- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/helloWorld/share/helloWorld/local_setup.dsv
+[1.009s] -- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/helloWorld/share/helloWorld/package.dsv
+[1.009s] -- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/helloWorld/share/ament_index/resource_index/packages/helloWorld
+[1.009s] -- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/helloWorld/share/helloWorld/cmake/helloWorldConfig.cmake
+[1.009s] -- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/helloWorld/share/helloWorld/cmake/helloWorldConfig-version.cmake
+[1.009s] -- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/helloWorld/share/helloWorld/package.xml
+[1.011s] Invoked command in '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/build/helloWorld' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/build/helloWorld

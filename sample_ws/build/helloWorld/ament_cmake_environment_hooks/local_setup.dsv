@@ -1,0 +1,2 @@
+source;share/helloWorld/environment/ament_prefix_path.sh
+source;share/helloWorld/environment/path.sh

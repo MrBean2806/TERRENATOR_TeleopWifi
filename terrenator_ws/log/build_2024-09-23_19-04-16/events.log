@@ -1,0 +1,218 @@
+[0.000000] (-) TimerEvent: {}
+[0.000449] (cameras) JobQueued: {'identifier': 'cameras', 'dependencies': OrderedDict()}
+[0.000515] (robot_control) JobQueued: {'identifier': 'robot_control', 'dependencies': OrderedDict()}
+[0.000553] (cameras) JobStarted: {'identifier': 'cameras'}
+[0.010750] (robot_control) JobStarted: {'identifier': 'robot_control'}
+[0.019289] (cameras) JobProgress: {'identifier': 'cameras', 'progress': 'cmake'}
+[0.020040] (cameras) JobProgress: {'identifier': 'cameras', 'progress': 'build'}
+[0.020835] (cameras) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/build/cameras', '--', '-j8', '-l8'], 'cwd': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/build/cameras', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US', 'USER': 'agusb', 'XDG_SEAT': 'seat0', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/agusb', 'OLDPWD': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/src/robot_control', 'DESKTOP_SESSION': 'cinnamon', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'CINNAMON_VERSION': '6.2.9', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/jazzy/', 'COLCON_PREFIX_PATH': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'agusb', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': 'c2', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/agusb-Inspiron-5584:@/tmp/.ICE-unix/1423,unix/agusb-Inspiron-5584:/tmp/.ICE-unix/1423', 'GDM_LANG': 'en_US', 'GTK3_MODULES': 'xapp-gtk3-module', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/36ec091d_8f46_48ff_8492_c94ffe10915c', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'X-Cinnamon', 'XDG_SESSION_DESKTOP': 'cinnamon', 'XAUTHORITY': '/home/agusb/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.118', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/agusb', 'AMENT_PREFIX_PATH': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'ROS_MASTER_URI': 'http://nano:11311', 'GDMSESSION': 'cinnamon', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'XDG_VTNR': '7', 'PWD': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/build/cameras', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-cinnamon:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/cinnamon:/usr/share/gnome:/home/agusb/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share', 'PYTHONPATH': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.025213] (robot_control) JobProgress: {'identifier': 'robot_control', 'progress': 'cmake'}
+[0.025951] (robot_control) JobProgress: {'identifier': 'robot_control', 'progress': 'build'}
+[0.026275] (robot_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/build/robot_control', '--', '-j8', '-l8'], 'cwd': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/build/robot_control', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US', 'USER': 'agusb', 'XDG_SEAT': 'seat0', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/agusb', 'OLDPWD': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/src/robot_control', 'DESKTOP_SESSION': 'cinnamon', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'CINNAMON_VERSION': '6.2.9', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/jazzy/', 'COLCON_PREFIX_PATH': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'agusb', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': 'c2', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/agusb-Inspiron-5584:@/tmp/.ICE-unix/1423,unix/agusb-Inspiron-5584:/tmp/.ICE-unix/1423', 'GDM_LANG': 'en_US', 'GTK3_MODULES': 'xapp-gtk3-module', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/36ec091d_8f46_48ff_8492_c94ffe10915c', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'X-Cinnamon', 'XDG_SESSION_DESKTOP': 'cinnamon', 'XAUTHORITY': '/home/agusb/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.118', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/agusb', 'AMENT_PREFIX_PATH': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'ROS_MASTER_URI': 'http://nano:11311', 'GDMSESSION': 'cinnamon', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'XDG_VTNR': '7', 'PWD': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/build/robot_control', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-cinnamon:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/cinnamon:/usr/share/gnome:/home/agusb/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share', 'PYTHONPATH': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099316] (-) TimerEvent: {}
+[0.122925] (cameras) StdoutLine: {'line': b'[100%] Built target cameras\n'}
+[0.144109] (robot_control) StdoutLine: {'line': b'[  2%] Built target robot_control__rosidl_generator_type_description\n'}
+[0.155190] (cameras) CommandEnded: {'returncode': 0}
+[0.170984] (robot_control) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_robot_control\n'}
+[0.194913] (robot_control) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object CMakeFiles/robot_uart_controller.dir/src/robot_uart_controller.cpp.o\x1b[0m\n'}
+[0.199364] (robot_control) StdoutLine: {'line': b'[  8%] Built target robot_control__cpp\n'}
+[0.199848] (-) TimerEvent: {}
+[0.202561] (robot_control) StdoutLine: {'line': b'[ 22%] Built target robot_control__rosidl_generator_c\n'}
+[0.211835] (cameras) JobProgress: {'identifier': 'cameras', 'progress': 'install'}
+[0.252002] (cameras) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/build/cameras'], 'cwd': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/build/cameras', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US', 'USER': 'agusb', 'XDG_SEAT': 'seat0', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/agusb', 'OLDPWD': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/src/robot_control', 'DESKTOP_SESSION': 'cinnamon', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'CINNAMON_VERSION': '6.2.9', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/jazzy/', 'COLCON_PREFIX_PATH': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'agusb', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': 'c2', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/agusb-Inspiron-5584:@/tmp/.ICE-unix/1423,unix/agusb-Inspiron-5584:/tmp/.ICE-unix/1423', 'GDM_LANG': 'en_US', 'GTK3_MODULES': 'xapp-gtk3-module', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/36ec091d_8f46_48ff_8492_c94ffe10915c', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'X-Cinnamon', 'XDG_SESSION_DESKTOP': 'cinnamon', 'XAUTHORITY': '/home/agusb/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.118', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/agusb', 'AMENT_PREFIX_PATH': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'ROS_MASTER_URI': 'http://nano:11311', 'GDMSESSION': 'cinnamon', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'XDG_VTNR': '7', 'PWD': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/build/cameras', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-cinnamon:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/cinnamon:/usr/share/gnome:/home/agusb/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share', 'PYTHONPATH': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.277590] (robot_control) StdoutLine: {'line': b'[ 30%] Built target robot_control__rosidl_typesupport_fastrtps_c\n'}
+[0.287107] (cameras) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.295572] (cameras) StdoutLine: {'line': b'-- Up-to-date: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/cameras/lib/cameras/cameras\n'}
+[0.295994] (cameras) StdoutLine: {'line': b'-- Up-to-date: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/cameras/share/ament_index/resource_index/package_run_dependencies/cameras\n'}
+[0.296245] (cameras) StdoutLine: {'line': b'-- Up-to-date: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/cameras/share/ament_index/resource_index/parent_prefix_path/cameras\n'}
+[0.296490] (cameras) StdoutLine: {'line': b'-- Up-to-date: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/cameras/share/cameras/environment/ament_prefix_path.sh\n'}
+[0.296748] (cameras) StdoutLine: {'line': b'-- Up-to-date: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/cameras/share/cameras/environment/ament_prefix_path.dsv\n'}
+[0.296974] (cameras) StdoutLine: {'line': b'-- Up-to-date: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/cameras/share/cameras/environment/path.sh\n'}
+[0.297197] (cameras) StdoutLine: {'line': b'-- Up-to-date: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/cameras/share/cameras/environment/path.dsv\n'}
+[0.297423] (cameras) StdoutLine: {'line': b'-- Up-to-date: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/cameras/share/cameras/local_setup.bash\n'}
+[0.297693] (cameras) StdoutLine: {'line': b'-- Up-to-date: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/cameras/share/cameras/local_setup.sh\n'}
+[0.297933] (cameras) StdoutLine: {'line': b'-- Up-to-date: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/cameras/share/cameras/local_setup.zsh\n'}
+[0.298164] (cameras) StdoutLine: {'line': b'-- Up-to-date: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/cameras/share/cameras/local_setup.dsv\n'}
+[0.298386] (cameras) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/cameras/share/cameras/package.dsv\n'}
+[0.298642] (cameras) StdoutLine: {'line': b'-- Up-to-date: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/cameras/share/ament_index/resource_index/packages/cameras\n'}
+[0.298874] (cameras) StdoutLine: {'line': b'-- Up-to-date: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/cameras/share/cameras/cmake/camerasConfig.cmake\n'}
+[0.299098] (cameras) StdoutLine: {'line': b'-- Up-to-date: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/cameras/share/cameras/cmake/camerasConfig-version.cmake\n'}
+[0.299323] (cameras) StdoutLine: {'line': b'-- Up-to-date: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/cameras/share/cameras/package.xml\n'}
+[0.304092] (-) TimerEvent: {}
+[0.310810] (robot_control) StdoutLine: {'line': b'[ 47%] Built target robot_control__rosidl_typesupport_introspection_cpp\n'}
+[0.311172] (robot_control) StdoutLine: {'line': b'[ 47%] Built target robot_control__rosidl_typesupport_c\n'}
+[0.311407] (cameras) CommandEnded: {'returncode': 0}
+[0.312104] (robot_control) StdoutLine: {'line': b'[ 55%] Built target robot_control__rosidl_typesupport_cpp\n'}
+[0.312685] (robot_control) StdoutLine: {'line': b'[ 66%] Built target robot_control__rosidl_typesupport_introspection_c\n'}
+[0.313060] (robot_control) StdoutLine: {'line': b'[ 72%] Built target robot_control__rosidl_typesupport_fastrtps_cpp\n'}
+[0.365531] (robot_control) StdoutLine: {'line': b'[ 72%] Built target robot_control\n'}
+[0.404387] (-) TimerEvent: {}
+[0.423214] (robot_control) StdoutLine: {'line': b'[ 75%] Built target robot_control__py\n'}
+[0.428993] (cameras) JobEnded: {'identifier': 'cameras', 'rc': 0}
+[0.500958] (robot_control) StdoutLine: {'line': b'[ 80%] Built target robot_control__rosidl_generator_py\n'}
+[0.504631] (-) TimerEvent: {}
+[0.591672] (robot_control) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/robot_control_s__rosidl_typesupport_c.dir/rosidl_generator_py/robot_control/_robot_control_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[0.607625] (robot_control) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/robot_control_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/robot_control/_robot_control_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[0.608668] (-) TimerEvent: {}
+[0.620455] (robot_control) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/robot_control_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/robot_control/_robot_control_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[0.708754] (-) TimerEvent: {}
+[0.809078] (-) TimerEvent: {}
+[0.871877] (robot_control) StdoutLine: {'line': b'running egg_info\n'}
+[0.893702] (robot_control) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/robot_control/robot_control_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[0.905126] (robot_control) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/robot_control/robot_control_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[0.909206] (-) TimerEvent: {}
+[0.926675] (robot_control) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/robot_control/robot_control_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[0.950364] (robot_control) StdoutLine: {'line': b'writing robot_control.egg-info/PKG-INFO\n'}
+[0.954204] (robot_control) StdoutLine: {'line': b'writing dependency_links to robot_control.egg-info/dependency_links.txt\n'}
+[0.961558] (robot_control) StdoutLine: {'line': b'writing top-level names to robot_control.egg-info/top_level.txt\n'}
+[0.991533] (robot_control) StdoutLine: {'line': b'[ 97%] Built target robot_control_s__rosidl_typesupport_c\n'}
+[1.005971] (robot_control) StdoutLine: {'line': b'[ 97%] Built target robot_control_s__rosidl_typesupport_introspection_c\n'}
+[1.009348] (-) TimerEvent: {}
+[1.030316] (robot_control) StdoutLine: {'line': b'[ 97%] Built target robot_control_s__rosidl_typesupport_fastrtps_c\n'}
+[1.109513] (-) TimerEvent: {}
+[1.115847] (robot_control) StdoutLine: {'line': b"reading manifest file 'robot_control.egg-info/SOURCES.txt'\n"}
+[1.117269] (robot_control) StdoutLine: {'line': b"writing manifest file 'robot_control.egg-info/SOURCES.txt'\n"}
+[1.202336] (robot_control) StdoutLine: {'line': b'[ 97%] Built target ament_cmake_python_build_robot_control_egg\n'}
+[1.209607] (-) TimerEvent: {}
+[1.309966] (-) TimerEvent: {}
+[1.410303] (-) TimerEvent: {}
+[1.510646] (-) TimerEvent: {}
+[1.611029] (-) TimerEvent: {}
+[1.711408] (-) TimerEvent: {}
+[1.811736] (-) TimerEvent: {}
+[1.912018] (-) TimerEvent: {}
+[2.012338] (-) TimerEvent: {}
+[2.112667] (-) TimerEvent: {}
+[2.212963] (-) TimerEvent: {}
+[2.313249] (-) TimerEvent: {}
+[2.413577] (-) TimerEvent: {}
+[2.513934] (-) TimerEvent: {}
+[2.614269] (-) TimerEvent: {}
+[2.714627] (-) TimerEvent: {}
+[2.815327] (-) TimerEvent: {}
+[2.916409] (-) TimerEvent: {}
+[3.016890] (-) TimerEvent: {}
+[3.117160] (-) TimerEvent: {}
+[3.217439] (-) TimerEvent: {}
+[3.317698] (-) TimerEvent: {}
+[3.417959] (-) TimerEvent: {}
+[3.518260] (-) TimerEvent: {}
+[3.618559] (-) TimerEvent: {}
+[3.718859] (-) TimerEvent: {}
+[3.819227] (-) TimerEvent: {}
+[3.919712] (-) TimerEvent: {}
+[4.020109] (-) TimerEvent: {}
+[4.120468] (-) TimerEvent: {}
+[4.220740] (-) TimerEvent: {}
+[4.321036] (-) TimerEvent: {}
+[4.421307] (-) TimerEvent: {}
+[4.521685] (-) TimerEvent: {}
+[4.625616] (-) TimerEvent: {}
+[4.726043] (-) TimerEvent: {}
+[4.826737] (-) TimerEvent: {}
+[4.927774] (-) TimerEvent: {}
+[5.028084] (-) TimerEvent: {}
+[5.128371] (-) TimerEvent: {}
+[5.228753] (-) TimerEvent: {}
+[5.329058] (-) TimerEvent: {}
+[5.429818] (-) TimerEvent: {}
+[5.531667] (-) TimerEvent: {}
+[5.632558] (-) TimerEvent: {}
+[5.732889] (-) TimerEvent: {}
+[5.833207] (-) TimerEvent: {}
+[5.933608] (-) TimerEvent: {}
+[6.034751] (-) TimerEvent: {}
+[6.135556] (-) TimerEvent: {}
+[6.236641] (-) TimerEvent: {}
+[6.337537] (-) TimerEvent: {}
+[6.412949] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/src/robot_control/src/robot_uart_controller.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid\x1b[01;32m\x1b[K generarRampaVelocidad\x1b[m\x1b[K(Vel_espacial*, Vel_espacial*, std::vector<float>&, std::vector<float>&, std::vector<float>&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.413179] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/src/robot_control/src/robot_uart_controller.cpp:55:42:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kvel_inicial\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.413284] (robot_control) StderrLine: {'line': b'   55 | void generarRampaVelocidad(\x1b[01;35m\x1b[KVel_espacial* vel_inicial\x1b[m\x1b[K, Vel_espacial* vel_final,\n'}
+[6.413372] (robot_control) StderrLine: {'line': b'      |                            \x1b[01;35m\x1b[K~~~~~~~~~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.414937] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/src/robot_control/src/robot_uart_controller.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid\x1b[01;32m\x1b[K joy_callback\x1b[m\x1b[K(sensor_msgs::msg::Joy_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.415200] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/src/robot_control/src/robot_uart_controller.cpp:149:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krobot_control\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[6.415459] (robot_control) StderrLine: {'line': b'  149 |     \x1b[01;31m\x1b[Krobot_control\x1b[m\x1b[K::TramaDatos msgInfo;\n'}
+[6.415732] (robot_control) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.422446] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/src/robot_control/src/robot_uart_controller.cpp:150:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KmsgInfo\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.422681] (robot_control) StderrLine: {'line': b'  150 |     \x1b[01;31m\x1b[KmsgInfo\x1b[m\x1b[K.v_bat = msg->buttons[0];\n'}
+[6.422774] (robot_control) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[6.437654] (-) TimerEvent: {}
+[6.449114] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/src/robot_control/src/robot_uart_controller.cpp:152:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krobot_info_publisher\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_get_gid_for_publisher\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[6.449449] (robot_control) StderrLine: {'line': b'  152 |     \x1b[01;31m\x1b[Krobot_info_publisher\x1b[m\x1b[K->publish(trama_msg);\n'}
+[6.449563] (robot_control) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.449644] (robot_control) StderrLine: {'line': b'      |     \x1b[32m\x1b[Krmw_get_gid_for_publisher\x1b[m\x1b[K\n'}
+[6.460252] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/src/robot_control/src/robot_uart_controller.cpp:152:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktrama_msg\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.460447] (robot_control) StderrLine: {'line': b'  152 |     robot_info_publisher->publish(\x1b[01;31m\x1b[Ktrama_msg\x1b[m\x1b[K);\n'}
+[6.460581] (robot_control) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[6.529372] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/src/robot_control/src/robot_uart_controller.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[01;32m\x1b[K main\x1b[m\x1b[K(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.529985] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/src/robot_control/src/robot_uart_controller.cpp:169:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krobot_control\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.530176] (robot_control) StderrLine: {'line': b'  169 |     auto robot_info_publisher = node->create_publisher<\x1b[01;31m\x1b[Krobot_control\x1b[m\x1b[K::msg::TramaDatos>(\n'}
+[6.530446] (robot_control) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.531350] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/src/robot_control/src/robot_uart_controller.cpp:169:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kparse error in template argument list\n'}
+[6.532307] (robot_control) StderrLine: {'line': b'  169 |     auto robot_info_publisher = node->\x1b[01;31m\x1b[Kcreate_publisher<robot_control::msg::TramaDatos>\x1b[m\x1b[K(\n'}
+[6.532458] (robot_control) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.532577] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/src/robot_control/src/robot_uart_controller.cpp:169:87:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::create_publisher<<expression error> >(const char [11], int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.532676] (robot_control) StderrLine: {'line': b'  169 |     auto robot_info_publisher = \x1b[01;31m\x1b[Knode->create_publisher<robot_control::msg::TramaDatos>(\x1b[m\x1b[K\n'}
+[6.532769] (robot_control) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[6.532850] (robot_control) StderrLine: {'line': b'  170 | \x1b[01;31m\x1b[K                            "robot_info", 10)\x1b[m\x1b[K;\n'}
+[6.532929] (robot_control) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~\x1b[m\x1b[K                                          \n'}
+[6.533034] (robot_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[6.533125] (robot_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[6.533207] (robot_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172\x1b[m\x1b[K,\n'}
+[6.533287] (robot_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/src/robot_control/src/robot_uart_controller.cpp:2\x1b[m\x1b[K:\n'}
+[6.533368] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:197:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::\x1b[01;32m\x1b[Kcreate_publisher\x1b[m\x1b[K(const std::string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.533493] (robot_control) StderrLine: {'line': b'  197 |   \x1b[01;36m\x1b[Kcreate_publisher\x1b[m\x1b[K(\n'}
+[6.533596] (robot_control) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.533674] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:197:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.533753] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/src/robot_control/src/robot_uart_controller.cpp:169:87:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[6.533833] (robot_control) StderrLine: {'line': b'  169 |     auto robot_info_publisher = \x1b[01;31m\x1b[Knode->create_publisher<robot_control::msg::TramaDatos>(\x1b[m\x1b[K\n'}
+[6.533911] (robot_control) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[6.533992] (robot_control) StderrLine: {'line': b'  170 | \x1b[01;31m\x1b[K                            "robot_info", 10)\x1b[m\x1b[K;\n'}
+[6.534072] (robot_control) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~\x1b[m\x1b[K                                          \n'}
+[6.537854] (-) TimerEvent: {}
+[6.638694] (-) TimerEvent: {}
+[6.739726] (-) TimerEvent: {}
+[6.840803] (-) TimerEvent: {}
+[6.941135] (-) TimerEvent: {}
+[7.041438] (-) TimerEvent: {}
+[7.141705] (-) TimerEvent: {}
+[7.242013] (-) TimerEvent: {}
+[7.342546] (-) TimerEvent: {}
+[7.443160] (-) TimerEvent: {}
+[7.543642] (-) TimerEvent: {}
+[7.643912] (-) TimerEvent: {}
+[7.744184] (-) TimerEvent: {}
+[7.844502] (-) TimerEvent: {}
+[7.944782] (-) TimerEvent: {}
+[8.045075] (-) TimerEvent: {}
+[8.145410] (-) TimerEvent: {}
+[8.245757] (-) TimerEvent: {}
+[8.346297] (-) TimerEvent: {}
+[8.447580] (-) TimerEvent: {}
+[8.548093] (-) TimerEvent: {}
+[8.648561] (-) TimerEvent: {}
+[8.748981] (-) TimerEvent: {}
+[8.849443] (-) TimerEvent: {}
+[8.949904] (-) TimerEvent: {}
+[9.050575] (-) TimerEvent: {}
+[9.151276] (-) TimerEvent: {}
+[9.251633] (-) TimerEvent: {}
+[9.351947] (-) TimerEvent: {}
+[9.452245] (-) TimerEvent: {}
+[9.552546] (-) TimerEvent: {}
+[9.652834] (-) TimerEvent: {}
+[9.753124] (-) TimerEvent: {}
+[9.853403] (-) TimerEvent: {}
+[9.953769] (-) TimerEvent: {}
+[10.054099] (-) TimerEvent: {}
+[10.154489] (-) TimerEvent: {}
+[10.254784] (-) TimerEvent: {}
+[10.355084] (-) TimerEvent: {}
+[10.455376] (-) TimerEvent: {}
+[10.488871] (robot_control) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/robot_uart_controller.dir/build.make:76: CMakeFiles/robot_uart_controller.dir/src/robot_uart_controller.cpp.o] Error 1\n'}
+[10.489179] (robot_control) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:183: CMakeFiles/robot_uart_controller.dir/all] Error 2\n'}
+[10.489362] (robot_control) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[10.491885] (robot_control) CommandEnded: {'returncode': 2}
+[10.548114] (robot_control) JobEnded: {'identifier': 'robot_control', 'rc': 2}
+[10.555614] (-) TimerEvent: {}
+[10.560066] (-) EventReactorShutdown: {}

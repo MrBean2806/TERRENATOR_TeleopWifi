@@ -1,0 +1,10 @@
+/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/build/robot_control/CMakeFiles/uninstall.dir
+/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/build/robot_control/CMakeFiles/robot_control_uninstall.dir
+/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/build/robot_control/CMakeFiles/robot_uart_controller.dir
+/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/build/robot_control/CMakeFiles/test.dir
+/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/build/robot_control/CMakeFiles/edit_cache.dir
+/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/build/robot_control/CMakeFiles/rebuild_cache.dir
+/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/build/robot_control/CMakeFiles/list_install_components.dir
+/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/build/robot_control/CMakeFiles/install.dir
+/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/build/robot_control/CMakeFiles/install/local.dir
+/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/build/robot_control/CMakeFiles/install/strip.dir

@@ -1,0 +1,132 @@
+[0.019s] Invoking command in '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/build/robot_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/src/robot_control -DCMAKE_INSTALL_PREFIX=/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/robot_control
+[0.034s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.069s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.180s] -- Found rclcpp: 28.1.3 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.211s] -- Found rosidl_generator_c: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.223s] -- Found rosidl_generator_cpp: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.235s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.251s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.323s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.324s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.389s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.465s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.530s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.540s] -- Found rosidl_adapter: 4.6.3 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.548s] -- Boost include directories: /usr/include
+[0.845s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.003s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.060s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.061s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[1.342s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[1.358s] -- Configuring done (1.3s)
+[1.395s] -- Generating done (0.0s)
+[1.399s] -- Build files have been written to: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/build/robot_control
+[1.413s] Invoked command in '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/build/robot_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/src/robot_control -DCMAKE_INSTALL_PREFIX=/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/robot_control
+[1.414s] Invoking command in '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/build/robot_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/build/robot_control -- -j8 -l8
+[1.466s] [  5%] [32mBuilding CXX object CMakeFiles/robot_uart_controller.dir/src/robot_uart_controller.cpp.o[0m
+[1.467s] [  5%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[1.474s] [  5%] Built target ament_cmake_python_copy_robot_control
+[1.692s] [  5%] Built target robot_control__rosidl_generator_type_description
+[1.702s] [  8%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.716s] [ 11%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.739s] running egg_info
+[1.740s] creating robot_control.egg-info
+[1.763s] writing robot_control.egg-info/PKG-INFO
+[1.763s] writing dependency_links to robot_control.egg-info/dependency_links.txt
+[1.763s] writing top-level names to robot_control.egg-info/top_level.txt
+[1.764s] writing manifest file 'robot_control.egg-info/SOURCES.txt'
+[1.875s] reading manifest file 'robot_control.egg-info/SOURCES.txt'
+[1.876s] writing manifest file 'robot_control.egg-info/SOURCES.txt'
+[1.972s] [ 11%] Built target ament_cmake_python_build_robot_control_egg
+[2.076s] [ 11%] Built target robot_control__cpp
+[2.179s] [ 13%] [32mBuilding C object CMakeFiles/robot_control__rosidl_generator_c.dir/rosidl_generator_c/robot_control/msg/detail/trama_datos__functions.c.o[0m
+[2.179s] [ 16%] [32mBuilding C object CMakeFiles/robot_control__rosidl_generator_c.dir/rosidl_generator_c/robot_control/msg/detail/trama_datos__type_support.c.o[0m
+[2.180s] [ 19%] [32mBuilding C object CMakeFiles/robot_control__rosidl_generator_c.dir/rosidl_generator_c/robot_control/msg/detail/trama_datos__description.c.o[0m
+[2.275s] [ 22%] [32m[1mLinking C shared library librobot_control__rosidl_generator_c.so[0m
+[2.325s] [ 22%] Built target robot_control__rosidl_generator_c
+[2.341s] [ 30%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.341s] [ 30%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.341s] [ 33%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.342s] [ 36%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.342s] [ 38%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.343s] [ 38%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.781s] [ 41%] [32mBuilding CXX object CMakeFiles/robot_control__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_control/msg/detail/trama_datos__type_support.cpp.o[0m
+[2.844s] [ 44%] [32mBuilding CXX object CMakeFiles/robot_control__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_control/msg/trama_datos__type_support.cpp.o[0m
+[2.908s] [ 47%] [32mBuilding CXX object CMakeFiles/robot_control__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_control/msg/trama_datos__type_support.cpp.o[0m
+[2.940s] [ 50%] [32mBuilding C object CMakeFiles/robot_control__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_control/msg/detail/trama_datos__type_support.c.o[0m
+[2.972s] [ 55%] [32mBuilding CXX object CMakeFiles/robot_control__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_control/msg/detail/dds_fastrtps/trama_datos__type_support.cpp.o[0m
+[2.973s] [ 55%] [32mBuilding CXX object CMakeFiles/robot_control__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_control/msg/detail/trama_datos__type_support_c.cpp.o[0m
+[2.997s] [ 58%] [32m[1mLinking CXX shared library librobot_control__rosidl_typesupport_c.so[0m
+[3.027s] [ 61%] [32m[1mLinking C shared library librobot_control__rosidl_typesupport_introspection_c.so[0m
+[3.060s] [ 61%] Built target robot_control__rosidl_typesupport_c
+[3.073s] [ 61%] Built target robot_control__rosidl_typesupport_introspection_c
+[3.453s] [ 63%] [32m[1mLinking CXX shared library librobot_control__rosidl_typesupport_cpp.so[0m
+[3.522s] [ 63%] Built target robot_control__rosidl_typesupport_cpp
+[3.644s] [ 66%] [32m[1mLinking CXX shared library librobot_control__rosidl_typesupport_introspection_cpp.so[0m
+[3.836s] [ 66%] Built target robot_control__rosidl_typesupport_introspection_cpp
+[3.991s] [ 69%] [32m[1mLinking CXX shared library librobot_control__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.032s] [ 72%] [32m[1mLinking CXX shared library librobot_control__rosidl_typesupport_fastrtps_c.so[0m
+[4.116s] [ 72%] Built target robot_control__rosidl_typesupport_fastrtps_c
+[4.120s] [ 72%] Built target robot_control__rosidl_typesupport_fastrtps_cpp
+[4.151s] [ 72%] Built target robot_control
+[4.175s] [ 75%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.508s] [ 75%] Built target robot_control__py
+[4.536s] [ 77%] [32mBuilding C object CMakeFiles/robot_control__rosidl_generator_py.dir/rosidl_generator_py/robot_control/msg/_trama_datos_s.c.o[0m
+[4.693s] [ 80%] [32m[1mLinking C shared library librobot_control__rosidl_generator_py.so[0m
+[4.740s] [ 80%] Built target robot_control__rosidl_generator_py
+[4.763s] [ 88%] [32mBuilding C object CMakeFiles/robot_control_s__rosidl_typesupport_c.dir/rosidl_generator_py/robot_control/_robot_control_s.ep.rosidl_typesupport_c.c.o[0m
+[4.763s] [ 88%] [32mBuilding C object CMakeFiles/robot_control_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/robot_control/_robot_control_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.763s] [ 88%] [32mBuilding C object CMakeFiles/robot_control_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/robot_control/_robot_control_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.909s] [ 94%] [32m[1mLinking C shared module rosidl_generator_py/robot_control/robot_control_s__rosidl_typesupport_introspection_c.so[0m
+[4.911s] [ 94%] [32m[1mLinking C shared module rosidl_generator_py/robot_control/robot_control_s__rosidl_typesupport_c.so[0m
+[4.953s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/robot_control/robot_control_s__rosidl_typesupport_fastrtps_c.so[0m
+[4.968s] [ 97%] Built target robot_control_s__rosidl_typesupport_c
+[4.976s] [ 97%] Built target robot_control_s__rosidl_typesupport_introspection_c
+[5.006s] [ 97%] Built target robot_control_s__rosidl_typesupport_fastrtps_c
+[7.079s] [01m[K/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/src/robot_control/src/robot_uart_controller.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K generarRampaVelocidad[m[K(Vel_espacial*, Vel_espacial*, std::vector<float>&, std::vector<float>&, std::vector<float>&)[m[K’:
+[7.079s] [01m[K/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/src/robot_control/src/robot_uart_controller.cpp:55:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvel_inicial[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.079s]    55 | void generarRampaVelocidad([01;35m[KVel_espacial* vel_inicial[m[K, Vel_espacial* vel_final,
+[7.080s]       |                            [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[7.081s] [01m[K/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/src/robot_control/src/robot_uart_controller.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K joy_callback[m[K(sensor_msgs::msg::Joy_<std::allocator<void> >::SharedPtr)[m[K’:
+[7.081s] [01m[K/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/src/robot_control/src/robot_uart_controller.cpp:149:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_control[m[K’ has not been declared
+[7.081s]   149 |     [01;31m[Krobot_control[m[K::TramaDatos msgInfo;
+[7.081s]       |     [01;31m[K^~~~~~~~~~~~~[m[K
+[7.086s] [01m[K/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/src/robot_control/src/robot_uart_controller.cpp:150:5:[m[K [01;31m[Kerror: [m[K‘[01m[KmsgInfo[m[K’ was not declared in this scope
+[7.086s]   150 |     [01;31m[KmsgInfo[m[K.v_bat = msg->buttons[0];
+[7.086s]       |     [01;31m[K^~~~~~~[m[K
+[7.105s] [01m[K/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/src/robot_control/src/robot_uart_controller.cpp:152:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_info_publisher[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_get_gid_for_publisher[m[K’?
+[7.105s]   152 |     [01;31m[Krobot_info_publisher[m[K->publish(trama_msg);
+[7.105s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[7.105s]       |     [32m[Krmw_get_gid_for_publisher[m[K
+[7.112s] [01m[K/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/src/robot_control/src/robot_uart_controller.cpp:152:35:[m[K [01;31m[Kerror: [m[K‘[01m[Ktrama_msg[m[K’ was not declared in this scope
+[7.112s]   152 |     robot_info_publisher->publish([01;31m[Ktrama_msg[m[K);
+[7.112s]       |                                   [01;31m[K^~~~~~~~~[m[K
+[7.159s] [01m[K/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/src/robot_control/src/robot_uart_controller.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[7.159s] [01m[K/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/src/robot_control/src/robot_uart_controller.cpp:169:56:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_control[m[K’ was not declared in this scope
+[7.159s]   169 |     auto robot_info_publisher = node->create_publisher<[01;31m[Krobot_control[m[K::msg::TramaDatos>(
+[7.159s]       |                                                        [01;31m[K^~~~~~~~~~~~~[m[K
+[7.159s] [01m[K/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/src/robot_control/src/robot_uart_controller.cpp:169:39:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[7.159s]   169 |     auto robot_info_publisher = node->[01;31m[Kcreate_publisher<robot_control::msg::TramaDatos>[m[K(
+[7.160s]       |                                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.160s] [01m[K/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/src/robot_control/src/robot_uart_controller.cpp:169:87:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::create_publisher<<expression error> >(const char [11], int)[m[K’
+[7.160s]   169 |     auto robot_info_publisher = [01;31m[Knode->create_publisher<robot_control::msg::TramaDatos>([m[K
+[7.160s]       |                                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[7.160s]   170 | [01;31m[K                            "robot_info", 10)[m[K;
+[7.160s]       |                             [01;31m[K~~~~~~~~~~~~~~~~~[m[K                                          
+[7.160s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[7.161s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[7.161s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K,
+[7.161s]                  from [01m[K/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/src/robot_control/src/robot_uart_controller.cpp:2[m[K:
+[7.161s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:197:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::[01;32m[Kcreate_publisher[m[K(const std::string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[7.161s]   197 |   [01;36m[Kcreate_publisher[m[K(
+[7.161s]       |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[7.161s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:197:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.161s] [01m[K/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/src/robot_control/src/robot_uart_controller.cpp:169:87:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.162s]   169 |     auto robot_info_publisher = [01;31m[Knode->create_publisher<robot_control::msg::TramaDatos>([m[K
+[7.162s]       |                                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[7.162s]   170 | [01;31m[K                            "robot_info", 10)[m[K;
+[7.162s]       |                             [01;31m[K~~~~~~~~~~~~~~~~~[m[K                                          
+[10.808s] gmake[2]: *** [CMakeFiles/robot_uart_controller.dir/build.make:76: CMakeFiles/robot_uart_controller.dir/src/robot_uart_controller.cpp.o] Error 1
+[10.808s] gmake[1]: *** [CMakeFiles/Makefile2:623: CMakeFiles/robot_uart_controller.dir/all] Error 2
+[10.808s] gmake: *** [Makefile:146: all] Error 2
+[10.811s] Invoked command in '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/build/robot_control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/build/robot_control -- -j8 -l8

@@ -1,0 +1,39 @@
+-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rclcpp: 28.1.3 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+-- Found interfaces: 0.0.0 (/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/interfaces/share/interfaces/cmake)
+-- project name: robot_control
+-- Configuring done (0.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/build/robot_control
+[ 50%] [32mBuilding CXX object CMakeFiles/robot_uart_controller.dir/src/robot_uart_controller.cpp.o[0m
+[01m[K/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/src/robot_control/src/robot_uart_controller.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K generarRampaVelocidad[m[K(Vel_espacial*, Vel_espacial*, std::vector<float>&, std::vector<float>&, std::vector<float>&)[m[K’:
+[01m[K/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/src/robot_control/src/robot_uart_controller.cpp:55:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvel_inicial[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   55 | void generarRampaVelocidad([01;35m[KVel_espacial* vel_inicial[m[K, Vel_espacial* vel_final,
+      |                            [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/src/robot_control/src/robot_uart_controller.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K joy_callback[m[K(sensor_msgs::msg::Joy_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/src/robot_control/src/robot_uart_controller.cpp:149:17:[m[K [01;31m[Kerror: [m[K‘[01m[KTramaDatos[m[K’ is not a member of ‘[01m[Kinterfaces[m[K’; did you mean ‘[01m[Kinterfaces::msg::TramaDatos[m[K’?
+  149 |     interfaces::[01;31m[KTramaDatos[m[K msgInfo;
+      |                 [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/interfaces/include/interfaces/interfaces/msg/trama_datos.hpp:7[m[K,
+                 from [01m[K/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/src/robot_control/src/robot_uart_controller.cpp:5[m[K:
+[01m[K/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/interfaces/include/interfaces/interfaces/msg/detail/trama_datos__struct.hpp:139:7:[m[K [01;36m[Knote: [m[K‘[01m[Kinterfaces::msg::TramaDatos[m[K’ declared here
+  139 | using [01;36m[KTramaDatos[m[K =
+      |       [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/src/robot_control/src/robot_uart_controller.cpp:150:5:[m[K [01;31m[Kerror: [m[K‘[01m[KmsgInfo[m[K’ was not declared in this scope
+  150 |     [01;31m[KmsgInfo[m[K.v_bat = msg->buttons[0];
+      |     [01;31m[K^~~~~~~[m[K
+[01m[K/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/src/robot_control/src/robot_uart_controller.cpp:152:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_info_publisher[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_get_gid_for_publisher[m[K’?
+  152 |     [01;31m[Krobot_info_publisher[m[K->publish(msgInfo);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+      |     [32m[Krmw_get_gid_for_publisher[m[K
+gmake[2]: *** [CMakeFiles/robot_uart_controller.dir/build.make:76: CMakeFiles/robot_uart_controller.dir/src/robot_uart_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/robot_uart_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,18 @@
+[31mCMake Error at /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake:141 (find_package):
+  Could not find a package configuration file provided by "boost_asio"
+  (requested version 1.83.0) with any of the following names:
+
+    boost_asioConfig.cmake
+    boost_asio-config.cmake
+
+  Add the installation prefix of "boost_asio" to CMAKE_PREFIX_PATH or set
+  "boost_asio_DIR" to a directory containing one of the above files.  If
+  "boost_asio" provides a separate development package or SDK, be sure it has
+  been installed.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake:262 (boost_find_component)
+  /usr/share/cmake-3.28/Modules/FindBoost.cmake:594 (find_package)
+  CMakeLists.txt:23 (find_package)
+
+[0m
+gmake: *** [Makefile:856: cmake_check_build_system] Error 1

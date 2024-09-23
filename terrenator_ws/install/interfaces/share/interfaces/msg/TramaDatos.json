@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "interfaces/msg/TramaDatos",
+      "fields": [
+        {
+          "name": "u_m",
+          "type": {
+            "type_id": 58,
+            "capacity": 4,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "v_bat",
+          "type": {
+            "type_id": 5,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "interfaces/msg/TramaDatos",
+      "hash_string": "RIHS01_ac7bfa00ed2f0be33aac664a1380e8e47092a85ca6c41718320749e865a03ef1"
+    }
+  ]
+}

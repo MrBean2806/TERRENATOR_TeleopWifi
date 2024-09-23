@@ -1,0 +1,111 @@
+[1.752s] Invoking command in '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/src/examples/rclcpp/topics/minimal_subscriber -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_subscriber
+[3.809s] -- The C compiler identification is GNU 13.2.0
+[3.820s] -- The CXX compiler identification is GNU 13.2.0
+[3.849s] -- Detecting C compiler ABI info
+[3.849s] -- Detecting C compiler ABI info - done
+[3.870s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.871s] -- Detecting C compile features
+[3.872s] -- Detecting C compile features - done
+[3.872s] -- Detecting CXX compiler ABI info
+[3.872s] -- Detecting CXX compiler ABI info - done
+[3.901s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.901s] -- Detecting CXX compile features
+[3.902s] -- Detecting CXX compile features - done
+[3.902s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.931s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.933s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.934s] -- Found rclcpp: 28.1.3 (/opt/ros/jazzy/share/rclcpp/cmake)
+[3.934s] -- Found rosidl_generator_c: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[3.934s] -- Found rosidl_generator_cpp: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[3.935s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.935s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.935s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[3.936s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[3.936s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[3.936s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[3.937s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.937s] -- Found rclcpp_components: 28.1.3 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[3.938s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[3.938s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.938s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.939s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.939s] -- Configured cppcheck include dirs: 
+[3.939s] -- Configured cppcheck exclude dirs and/or files: 
+[3.940s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.940s] -- Configured cpplint exclude dirs and/or files: 
+[3.941s] -- Added test 'lint_cmake' to check CMake code style
+[3.941s] -- Added test 'uncrustify' to check C / C++ code style
+[3.941s] -- Configured uncrustify additional arguments: 
+[3.942s] -- Added test 'xmllint' to check XML markup files
+[3.942s] -- Configuring done (1.5s)
+[3.943s] -- Generating done (0.0s)
+[3.943s] -- Build files have been written to: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/examples_rclcpp_minimal_subscriber
+[4.509s] Invoked command in '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/src/examples/rclcpp/topics/minimal_subscriber -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_subscriber
+[4.512s] Invoking command in '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/examples_rclcpp_minimal_subscriber -- -j8 -l8
+[4.771s] [  4%] [32mBuilding CXX object CMakeFiles/subscriber_lambda.dir/lambda.cpp.o[0m
+[22.262s] [  8%] [32m[1mLinking CXX executable subscriber_lambda[0m
+[22.262s] [  8%] Built target subscriber_lambda
+[22.262s] [ 12%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber_library.dir/wait_set_subscriber.cpp.o[0m
+[34.994s] [ 16%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber_library.dir/static_wait_set_subscriber.cpp.o[0m
+[50.708s] [ 20%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber_library.dir/time_triggered_wait_set_subscriber.cpp.o[0m
+[67.600s] [ 25%] [32m[1mLinking CXX shared library libwait_set_subscriber_library.so[0m
+[68.300s] [ 25%] Built target wait_set_subscriber_library
+[68.333s] [ 29%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber.dir/rclcpp_components/node_main_wait_set_subscriber.cpp.o[0m
+[75.100s] [ 33%] [32m[1mLinking CXX executable wait_set_subscriber[0m
+[75.320s] [ 33%] Built target wait_set_subscriber
+[75.352s] [ 37%] [32mBuilding CXX object CMakeFiles/static_wait_set_subscriber.dir/rclcpp_components/node_main_static_wait_set_subscriber.cpp.o[0m
+[82.095s] [ 41%] [32m[1mLinking CXX executable static_wait_set_subscriber[0m
+[82.318s] [ 41%] Built target static_wait_set_subscriber
+[82.352s] [ 45%] [32mBuilding CXX object CMakeFiles/time_triggered_wait_set_subscriber.dir/rclcpp_components/node_main_time_triggered_wait_set_subscriber.cpp.o[0m
+[88.957s] [ 50%] [32m[1mLinking CXX executable time_triggered_wait_set_subscriber[0m
+[89.176s] [ 50%] Built target time_triggered_wait_set_subscriber
+[89.211s] [ 54%] [32mBuilding CXX object CMakeFiles/subscriber_content_filtering.dir/content_filtering.cpp.o[0m
+[104.617s] [ 58%] [32m[1mLinking CXX executable subscriber_content_filtering[0m
+[105.064s] [ 58%] Built target subscriber_content_filtering
+[105.098s] [ 62%] [32mBuilding CXX object CMakeFiles/subscriber_not_composable.dir/not_composable.cpp.o[0m
+[120.620s] [ 66%] [32m[1mLinking CXX executable subscriber_not_composable[0m
+[121.071s] [ 66%] Built target subscriber_not_composable
+[121.104s] [ 70%] [32mBuilding CXX object CMakeFiles/subscriber_member_function_with_unique_network_flow_endpoints.dir/member_function_with_unique_network_flow_endpoints.cpp.o[0m
+[136.541s] [ 75%] [32m[1mLinking CXX executable subscriber_member_function_with_unique_network_flow_endpoints[0m
+[136.986s] [ 75%] Built target subscriber_member_function_with_unique_network_flow_endpoints
+[137.021s] [ 79%] [32mBuilding CXX object CMakeFiles/subscriber_member_function_with_type_adapter.dir/member_function_with_type_adapter.cpp.o[0m
+[155.084s] [ 83%] [32m[1mLinking CXX executable subscriber_member_function_with_type_adapter[0m
+[155.630s] [ 83%] Built target subscriber_member_function_with_type_adapter
+[155.662s] [ 91%] [32mBuilding CXX object CMakeFiles/subscriber_member_function_with_topic_statistics.dir/member_function_with_topic_statistics.cpp.o[0m
+[155.662s] [ 91%] [32mBuilding CXX object CMakeFiles/subscriber_member_function.dir/member_function.cpp.o[0m
+[175.336s] [ 95%] [32m[1mLinking CXX executable subscriber_member_function[0m
+[175.433s] [100%] [32m[1mLinking CXX executable subscriber_member_function_with_topic_statistics[0m
+[175.815s] [100%] Built target subscriber_member_function
+[175.903s] [100%] Built target subscriber_member_function_with_topic_statistics
+[175.921s] Invoked command in '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/examples_rclcpp_minimal_subscriber -- -j8 -l8
+[176.000s] Invoking command in '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/examples_rclcpp_minimal_subscriber
+[176.011s] -- Install configuration: ""
+[176.012s] -- Execute custom install script
+[176.013s] -- Symlinking: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/wait_set_subscriber
+[176.027s] -- Symlinking: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/static_wait_set_subscriber
+[176.041s] -- Symlinking: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/time_triggered_wait_set_subscriber
+[176.055s] -- Symlinking: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/libwait_set_subscriber_library.so
+[176.071s] -- Symlinking: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_lambda
+[176.084s] -- Symlinking: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function
+[176.097s] -- Symlinking: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_topic_statistics
+[176.110s] -- Symlinking: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_type_adapter
+[176.124s] -- Symlinking: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_unique_network_flow_endpoints
+[176.137s] -- Symlinking: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_not_composable
+[176.150s] -- Symlinking: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_content_filtering
+[176.162s] -- Symlinking: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_subscriber
+[176.176s] -- Symlinking: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_subscriber
+[176.189s] -- Symlinking: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/ament_prefix_path.sh
+[176.201s] -- Symlinking: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/ament_prefix_path.dsv
+[176.214s] -- Symlinking: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/path.sh
+[176.226s] -- Symlinking: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/path.dsv
+[176.238s] -- Symlinking: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.bash
+[176.251s] -- Symlinking: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.sh
+[176.263s] -- Symlinking: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.zsh
+[176.278s] -- Symlinking: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.dsv
+[176.290s] -- Symlinking: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/package.dsv
+[176.303s] -- Symlinking: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/packages/examples_rclcpp_minimal_subscriber
+[176.315s] -- Symlinking: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/rclcpp_components/examples_rclcpp_minimal_subscriber
+[176.328s] -- Symlinking: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/cmake/examples_rclcpp_minimal_subscriberConfig.cmake
+[176.340s] -- Symlinking: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/cmake/examples_rclcpp_minimal_subscriberConfig-version.cmake
+[176.352s] -- Symlinking: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/package.xml
+[176.370s] Invoked command in '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/examples_rclcpp_minimal_subscriber

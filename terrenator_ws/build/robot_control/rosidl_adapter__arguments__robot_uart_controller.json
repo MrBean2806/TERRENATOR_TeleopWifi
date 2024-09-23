@@ -1,0 +1,6 @@
+{
+  "package_name": "robot_control",
+  "non_idl_tuples": [
+    "/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/src/robot_control:msg/TramaDatos.msg"
+  ]
+}

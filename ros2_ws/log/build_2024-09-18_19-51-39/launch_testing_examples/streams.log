@@ -1,0 +1,35 @@
+[4.863s] Invoking command in '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/launch_testing_examples': PYTHONPATH=/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/launch_testing_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/launch_testing_examples/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/launch_testing_examples/build --no-deps symlink_data
+[6.154s] running develop
+[6.155s] /usr/lib/python3/dist-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[6.155s] !!
+[6.155s] 
+[6.156s]         ********************************************************************************
+[6.156s]         Please avoid running ``setup.py`` and ``easy_install``.
+[6.157s]         Instead, use pypa/build, pypa/installer or other
+[6.157s]         standards-based tools.
+[6.157s] 
+[6.158s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[6.158s]         ********************************************************************************
+[6.159s] 
+[6.159s] !!
+[6.159s]   easy_install.initialize_options(self)
+[6.781s] running egg_info
+[6.782s] creating launch_testing_examples.egg-info
+[6.841s] writing launch_testing_examples.egg-info/PKG-INFO
+[6.842s] writing dependency_links to launch_testing_examples.egg-info/dependency_links.txt
+[6.842s] writing requirements to launch_testing_examples.egg-info/requires.txt
+[6.843s] writing top-level names to launch_testing_examples.egg-info/top_level.txt
+[6.843s] writing manifest file 'launch_testing_examples.egg-info/SOURCES.txt'
+[6.968s] reading manifest file 'launch_testing_examples.egg-info/SOURCES.txt'
+[6.969s] writing manifest file 'launch_testing_examples.egg-info/SOURCES.txt'
+[7.033s] running build_ext
+[7.034s] Creating /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/launch_testing_examples/lib/python3.12/site-packages/launch-testing-examples.egg-link (link to .)
+[7.035s] 
+[7.035s] Installed /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/launch_testing_examples
+[7.036s] running symlink_data
+[7.036s] creating /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/launch_testing_examples/share/ament_index
+[7.037s] creating /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/launch_testing_examples/share/ament_index/resource_index
+[7.037s] creating /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/launch_testing_examples/share/ament_index/resource_index/packages
+[7.037s] symbolically linking /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/launch_testing_examples/resource/launch_testing_examples -> /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/launch_testing_examples/share/ament_index/resource_index/packages
+[7.037s] symbolically linking /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/launch_testing_examples/package.xml -> /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/launch_testing_examples/share/launch_testing_examples
+[7.125s] Invoked command in '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/launch_testing_examples' returned '0': PYTHONPATH=/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/launch_testing_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/launch_testing_examples/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/launch_testing_examples/build --no-deps symlink_data

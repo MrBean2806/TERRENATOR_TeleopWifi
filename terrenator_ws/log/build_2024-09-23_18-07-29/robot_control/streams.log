@@ -1,0 +1,72 @@
+[0.013s] Invoking command in '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/build/robot_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/build/robot_control -- -j8 -l8
+[0.103s] [  2%] Built target robot_control__rosidl_generator_type_description
+[0.129s] [  2%] Built target ament_cmake_python_copy_robot_control
+[0.151s] [  5%] [32mBuilding CXX object CMakeFiles/robot_uart_controller.dir/src/robot_uart_controller.cpp.o[0m
+[0.158s] [  8%] Built target robot_control__cpp
+[0.160s] [ 22%] Built target robot_control__rosidl_generator_c
+[0.235s] [ 30%] Built target robot_control__rosidl_typesupport_introspection_c
+[0.248s] [ 38%] Built target robot_control__rosidl_typesupport_cpp
+[0.253s] [ 47%] Built target robot_control__rosidl_typesupport_fastrtps_c
+[0.253s] [ 55%] Built target robot_control__rosidl_typesupport_c
+[0.256s] [ 63%] Built target robot_control__rosidl_typesupport_fastrtps_cpp
+[0.262s] [ 72%] Built target robot_control__rosidl_typesupport_introspection_cpp
+[0.318s] [ 72%] Built target robot_control
+[0.377s] [ 75%] Built target robot_control__py
+[0.452s] [ 80%] Built target robot_control__rosidl_generator_py
+[0.526s] [ 86%] Built target robot_control_s__rosidl_typesupport_fastrtps_c
+[0.536s] [ 91%] Built target robot_control_s__rosidl_typesupport_introspection_c
+[0.539s] [ 97%] Built target robot_control_s__rosidl_typesupport_c
+[0.733s] running egg_info
+[0.759s] writing robot_control.egg-info/PKG-INFO
+[0.760s] writing dependency_links to robot_control.egg-info/dependency_links.txt
+[0.760s] writing top-level names to robot_control.egg-info/top_level.txt
+[0.862s] reading manifest file 'robot_control.egg-info/SOURCES.txt'
+[0.863s] writing manifest file 'robot_control.egg-info/SOURCES.txt'
+[0.964s] [ 97%] Built target ament_cmake_python_build_robot_control_egg
+[6.199s] [01m[K/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/src/robot_control/src/robot_uart_controller.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K generarRampaVelocidad[m[K(Vel_espacial*, Vel_espacial*, std::vector<float>&, std::vector<float>&, std::vector<float>&)[m[K’:
+[6.199s] [01m[K/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/src/robot_control/src/robot_uart_controller.cpp:55:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvel_inicial[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.199s]    55 | void generarRampaVelocidad([01;35m[KVel_espacial* vel_inicial[m[K, Vel_espacial* vel_final,
+[6.200s]       |                            [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[6.201s] [01m[K/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/src/robot_control/src/robot_uart_controller.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K joy_callback[m[K(sensor_msgs::msg::Joy_<std::allocator<void> >::SharedPtr)[m[K’:
+[6.201s] [01m[K/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/src/robot_control/src/robot_uart_controller.cpp:149:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_control[m[K’ has not been declared
+[6.201s]   149 |     [01;31m[Krobot_control[m[K::TramaDatos msgInfo;
+[6.201s]       |     [01;31m[K^~~~~~~~~~~~~[m[K
+[6.207s] [01m[K/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/src/robot_control/src/robot_uart_controller.cpp:150:5:[m[K [01;31m[Kerror: [m[K‘[01m[KmsgInfo[m[K’ was not declared in this scope
+[6.207s]   150 |     [01;31m[KmsgInfo[m[K.v_bat = msg->buttons[0];
+[6.207s]       |     [01;31m[K^~~~~~~[m[K
+[6.229s] [01m[K/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/src/robot_control/src/robot_uart_controller.cpp:152:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_info_publisher[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_get_gid_for_publisher[m[K’?
+[6.229s]   152 |     [01;31m[Krobot_info_publisher[m[K->publish(trama_msg);
+[6.229s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[6.229s]       |     [32m[Krmw_get_gid_for_publisher[m[K
+[6.242s] [01m[K/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/src/robot_control/src/robot_uart_controller.cpp:152:35:[m[K [01;31m[Kerror: [m[K‘[01m[Ktrama_msg[m[K’ was not declared in this scope
+[6.242s]   152 |     robot_info_publisher->publish([01;31m[Ktrama_msg[m[K);
+[6.242s]       |                                   [01;31m[K^~~~~~~~~[m[K
+[6.309s] [01m[K/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/src/robot_control/src/robot_uart_controller.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[6.309s] [01m[K/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/src/robot_control/src/robot_uart_controller.cpp:169:56:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_control[m[K’ was not declared in this scope
+[6.309s]   169 |     auto robot_info_publisher = node->create_publisher<[01;31m[Krobot_control[m[K::msg::TramaDatos>(
+[6.309s]       |                                                        [01;31m[K^~~~~~~~~~~~~[m[K
+[6.310s] [01m[K/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/src/robot_control/src/robot_uart_controller.cpp:169:39:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[6.310s]   169 |     auto robot_info_publisher = node->[01;31m[Kcreate_publisher<robot_control::msg::TramaDatos>[m[K(
+[6.310s]       |                                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.310s] [01m[K/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/src/robot_control/src/robot_uart_controller.cpp:169:87:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::create_publisher<<expression error> >(const char [11], int)[m[K’
+[6.310s]   169 |     auto robot_info_publisher = [01;31m[Knode->create_publisher<robot_control::msg::TramaDatos>([m[K
+[6.310s]       |                                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[6.310s]   170 | [01;31m[K                            "robot_info", 10)[m[K;
+[6.310s]       |                             [01;31m[K~~~~~~~~~~~~~~~~~[m[K                                          
+[6.311s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[6.311s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[6.311s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K,
+[6.311s]                  from [01m[K/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/src/robot_control/src/robot_uart_controller.cpp:2[m[K:
+[6.311s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:197:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::[01;32m[Kcreate_publisher[m[K(const std::string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[6.311s]   197 |   [01;36m[Kcreate_publisher[m[K(
+[6.311s]       |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[6.312s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:197:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.312s] [01m[K/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/src/robot_control/src/robot_uart_controller.cpp:169:87:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.312s]   169 |     auto robot_info_publisher = [01;31m[Knode->create_publisher<robot_control::msg::TramaDatos>([m[K
+[6.312s]       |                                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[6.312s]   170 | [01;31m[K                            "robot_info", 10)[m[K;
+[6.312s]       |                             [01;31m[K~~~~~~~~~~~~~~~~~[m[K                                          
+[10.380s] gmake[2]: *** [CMakeFiles/robot_uart_controller.dir/build.make:76: CMakeFiles/robot_uart_controller.dir/src/robot_uart_controller.cpp.o] Error 1
+[10.381s] gmake[1]: *** [CMakeFiles/Makefile2:183: CMakeFiles/robot_uart_controller.dir/all] Error 2
+[10.381s] gmake: *** [Makefile:146: all] Error 2
+[10.384s] Invoked command in '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/build/robot_control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/build/robot_control -- -j8 -l8

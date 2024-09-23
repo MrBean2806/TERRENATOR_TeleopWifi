@@ -1,0 +1,33 @@
+[0.019s] Invoking command in '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/launch_testing_examples:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_service:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_publisher:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_client:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_action_server:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_action_client:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_guard_conditions:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy /usr/bin/cmake --build /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/build/turtlesim -- -j8 -l8
+[0.088s] [  0%] Built target turtlesim__rosidl_generator_type_description
+[0.103s] [  0%] Built target ament_cmake_python_copy_turtlesim
+[0.116s] [  1%] Built target turtlesim__cpp
+[0.131s] [ 24%] Built target turtlesim__rosidl_generator_c
+[0.174s] [ 33%] Built target turtlesim__rosidl_typesupport_introspection_c
+[0.181s] [ 58%] Built target turtlesim__rosidl_typesupport_cpp
+[0.181s] [ 58%] Built target turtlesim__rosidl_typesupport_fastrtps_c
+[0.182s] [ 59%] Built target turtlesim__rosidl_typesupport_c
+[0.186s] [ 68%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp
+[0.191s] [ 76%] Built target turtlesim__rosidl_typesupport_introspection_cpp
+[0.241s] [ 76%] Built target turtlesim
+[0.244s] [ 77%] Built target draw_square
+[0.250s] [ 79%] Built target turtle_teleop_key
+[0.255s] [ 81%] Built target mimic
+[0.265s] [ 82%] [32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtle_frame.cpp.o[0m
+[0.279s] [ 82%] Built target turtlesim__py
+[0.327s] [ 90%] Built target turtlesim__rosidl_generator_py
+[0.370s] [ 92%] Built target turtlesim_s__rosidl_typesupport_fastrtps_c
+[0.372s] [ 94%] Built target turtlesim_s__rosidl_typesupport_introspection_c
+[0.372s] [ 96%] Built target turtlesim_s__rosidl_typesupport_c
+[0.599s] running egg_info
+[0.630s] writing turtlesim.egg-info/PKG-INFO
+[0.630s] writing dependency_links to turtlesim.egg-info/dependency_links.txt
+[0.630s] writing top-level names to turtlesim.egg-info/top_level.txt
+[0.701s] reading manifest file 'turtlesim.egg-info/SOURCES.txt'
+[0.701s] writing manifest file 'turtlesim.egg-info/SOURCES.txt'
+[0.752s] [ 96%] Built target ament_cmake_python_build_turtlesim_egg
+[20.139s] gmake[2]: *** Deleting file 'CMakeFiles/turtlesim_node.dir/src/turtle_frame.cpp.o'
+[20.140s] gmake[2]: *** [CMakeFiles/turtlesim_node.dir/build.make:108: CMakeFiles/turtlesim_node.dir/src/turtle_frame.cpp.o] Interrupt
+[20.140s] gmake[1]: *** [CMakeFiles/Makefile2:631: CMakeFiles/turtlesim_node.dir/all] Interrupt
+[20.140s] gmake: *** [Makefile:146: all] Interrupt
+[20.147s] Invoked command in '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/build/turtlesim' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/launch_testing_examples:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_service:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_publisher:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_client:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_action_server:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_action_client:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_guard_conditions:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy /usr/bin/cmake --build /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/build/turtlesim -- -j8 -l8

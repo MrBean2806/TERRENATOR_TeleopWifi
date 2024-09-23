@@ -1,0 +1,13 @@
+{
+  "package_name": "turtlesim",
+  "non_idl_tuples": [
+    "/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/src/ros_tutorials/turtlesim:action/RotateAbsolute.action",
+    "/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/src/ros_tutorials/turtlesim:msg/Color.msg",
+    "/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/src/ros_tutorials/turtlesim:msg/Pose.msg",
+    "/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/src/ros_tutorials/turtlesim:srv/Kill.srv",
+    "/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/src/ros_tutorials/turtlesim:srv/SetPen.srv",
+    "/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/src/ros_tutorials/turtlesim:srv/Spawn.srv",
+    "/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/src/ros_tutorials/turtlesim:srv/TeleportAbsolute.srv",
+    "/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/src/ros_tutorials/turtlesim:srv/TeleportRelative.srv"
+  ]
+}

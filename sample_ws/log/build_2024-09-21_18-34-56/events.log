@@ -1,0 +1,244 @@
+[0.000000] (-) TimerEvent: {}
+[0.000523] (turtlesim) JobQueued: {'identifier': 'turtlesim', 'dependencies': OrderedDict()}
+[0.000628] (turtlesim) JobStarted: {'identifier': 'turtlesim'}
+[0.015452] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'cmake'}
+[0.016228] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'build'}
+[0.017022] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/build/turtlesim', '--', '-j8', '-l8'], 'cwd': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/build/turtlesim', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US', 'USER': 'agusb', 'XDG_SEAT': 'seat0', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_wait_set/lib:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/agusb', 'OLDPWD': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi', 'DESKTOP_SESSION': 'cinnamon', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'CINNAMON_VERSION': '6.2.9', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'agusb', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': 'c2', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/agusb-Inspiron-5584:@/tmp/.ICE-unix/1423,unix/agusb-Inspiron-5584:/tmp/.ICE-unix/1423', 'GDM_LANG': 'en_US', 'GTK3_MODULES': 'xapp-gtk3-module', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/c1a27e21_23e6_4c3e_9b6f_4e306d07de2d', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'X-Cinnamon', 'XDG_SESSION_DESKTOP': 'cinnamon', 'XAUTHORITY': '/home/agusb/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.118', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/agusb', 'AMENT_PREFIX_PATH': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/launch_testing_examples:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_service:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_publisher:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_client:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_action_server:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_action_client:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_guard_conditions:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_executors:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_wait_set:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_timer:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_service:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_composition:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_client:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_cbg_executor:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_async_client:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'cinnamon', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'XDG_VTNR': '7', 'PWD': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/build/turtlesim', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-cinnamon:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/cinnamon:/usr/share/gnome:/home/agusb/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share', 'PYTHONPATH': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/launch_testing_examples:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/launch_testing_examples/lib/python3.12/site-packages:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/examples_rclpy_pointcloud_publisher:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.12/site-packages:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/examples_rclpy_minimal_subscriber:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.12/site-packages:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/examples_rclpy_minimal_service:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.12/site-packages:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/examples_rclpy_minimal_publisher:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.12/site-packages:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/examples_rclpy_minimal_client:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.12/site-packages:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/examples_rclpy_minimal_action_server:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.12/site-packages:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/examples_rclpy_minimal_action_client:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.12/site-packages:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/examples_rclpy_guard_conditions:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.12/site-packages:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/examples_rclpy_executors:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_executors/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_wait_set:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_timer:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_service:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_composition:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_client:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_cbg_executor:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_async_client:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/launch_testing_examples:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_service:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_publisher:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_client:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_action_server:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_action_client:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_guard_conditions:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy'}), 'shell': False}
+[0.088201] (turtlesim) StdoutLine: {'line': b'[  0%] Built target turtlesim__rosidl_generator_type_description\n'}
+[0.099359] (-) TimerEvent: {}
+[0.103136] (turtlesim) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_copy_turtlesim\n'}
+[0.116559] (turtlesim) StdoutLine: {'line': b'[  1%] Built target turtlesim__cpp\n'}
+[0.131550] (turtlesim) StdoutLine: {'line': b'[ 24%] Built target turtlesim__rosidl_generator_c\n'}
+[0.174657] (turtlesim) StdoutLine: {'line': b'[ 33%] Built target turtlesim__rosidl_typesupport_introspection_c\n'}
+[0.181425] (turtlesim) StdoutLine: {'line': b'[ 58%] Built target turtlesim__rosidl_typesupport_cpp\n'}
+[0.181765] (turtlesim) StdoutLine: {'line': b'[ 58%] Built target turtlesim__rosidl_typesupport_fastrtps_c\n'}
+[0.182033] (turtlesim) StdoutLine: {'line': b'[ 59%] Built target turtlesim__rosidl_typesupport_c\n'}
+[0.185934] (turtlesim) StdoutLine: {'line': b'[ 68%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp\n'}
+[0.191048] (turtlesim) StdoutLine: {'line': b'[ 76%] Built target turtlesim__rosidl_typesupport_introspection_cpp\n'}
+[0.199554] (-) TimerEvent: {}
+[0.241795] (turtlesim) StdoutLine: {'line': b'[ 76%] Built target turtlesim\n'}
+[0.244499] (turtlesim) StdoutLine: {'line': b'[ 77%] Built target draw_square\n'}
+[0.250378] (turtlesim) StdoutLine: {'line': b'[ 79%] Built target turtle_teleop_key\n'}
+[0.255147] (turtlesim) StdoutLine: {'line': b'[ 81%] Built target mimic\n'}
+[0.264893] (turtlesim) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtle_frame.cpp.o\x1b[0m\n'}
+[0.278959] (turtlesim) StdoutLine: {'line': b'[ 82%] Built target turtlesim__py\n'}
+[0.299676] (-) TimerEvent: {}
+[0.327809] (turtlesim) StdoutLine: {'line': b'[ 90%] Built target turtlesim__rosidl_generator_py\n'}
+[0.370348] (turtlesim) StdoutLine: {'line': b'[ 92%] Built target turtlesim_s__rosidl_typesupport_fastrtps_c\n'}
+[0.372130] (turtlesim) StdoutLine: {'line': b'[ 94%] Built target turtlesim_s__rosidl_typesupport_introspection_c\n'}
+[0.372697] (turtlesim) StdoutLine: {'line': b'[ 96%] Built target turtlesim_s__rosidl_typesupport_c\n'}
+[0.399805] (-) TimerEvent: {}
+[0.500043] (-) TimerEvent: {}
+[0.599587] (turtlesim) StdoutLine: {'line': b'running egg_info\n'}
+[0.600145] (-) TimerEvent: {}
+[0.630345] (turtlesim) StdoutLine: {'line': b'writing turtlesim.egg-info/PKG-INFO\n'}
+[0.630543] (turtlesim) StdoutLine: {'line': b'writing dependency_links to turtlesim.egg-info/dependency_links.txt\n'}
+[0.630760] (turtlesim) StdoutLine: {'line': b'writing top-level names to turtlesim.egg-info/top_level.txt\n'}
+[0.700287] (-) TimerEvent: {}
+[0.701021] (turtlesim) StdoutLine: {'line': b"reading manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[0.701945] (turtlesim) StdoutLine: {'line': b"writing manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[0.752744] (turtlesim) StdoutLine: {'line': b'[ 96%] Built target ament_cmake_python_build_turtlesim_egg\n'}
+[0.800387] (-) TimerEvent: {}
+[0.900670] (-) TimerEvent: {}
+[1.000941] (-) TimerEvent: {}
+[1.101224] (-) TimerEvent: {}
+[1.201462] (-) TimerEvent: {}
+[1.301718] (-) TimerEvent: {}
+[1.402070] (-) TimerEvent: {}
+[1.502766] (-) TimerEvent: {}
+[1.603069] (-) TimerEvent: {}
+[1.703446] (-) TimerEvent: {}
+[1.803819] (-) TimerEvent: {}
+[1.904214] (-) TimerEvent: {}
+[2.004675] (-) TimerEvent: {}
+[2.105216] (-) TimerEvent: {}
+[2.205540] (-) TimerEvent: {}
+[2.305816] (-) TimerEvent: {}
+[2.406123] (-) TimerEvent: {}
+[2.506430] (-) TimerEvent: {}
+[2.606703] (-) TimerEvent: {}
+[2.707033] (-) TimerEvent: {}
+[2.807324] (-) TimerEvent: {}
+[2.907636] (-) TimerEvent: {}
+[3.007877] (-) TimerEvent: {}
+[3.108178] (-) TimerEvent: {}
+[3.208528] (-) TimerEvent: {}
+[3.308813] (-) TimerEvent: {}
+[3.409083] (-) TimerEvent: {}
+[3.509334] (-) TimerEvent: {}
+[3.609642] (-) TimerEvent: {}
+[3.709984] (-) TimerEvent: {}
+[3.810320] (-) TimerEvent: {}
+[3.910600] (-) TimerEvent: {}
+[4.010881] (-) TimerEvent: {}
+[4.111154] (-) TimerEvent: {}
+[4.211403] (-) TimerEvent: {}
+[4.311672] (-) TimerEvent: {}
+[4.411902] (-) TimerEvent: {}
+[4.512184] (-) TimerEvent: {}
+[4.612419] (-) TimerEvent: {}
+[4.712669] (-) TimerEvent: {}
+[4.812926] (-) TimerEvent: {}
+[4.913197] (-) TimerEvent: {}
+[5.013447] (-) TimerEvent: {}
+[5.113725] (-) TimerEvent: {}
+[5.214007] (-) TimerEvent: {}
+[5.314325] (-) TimerEvent: {}
+[5.414565] (-) TimerEvent: {}
+[5.514828] (-) TimerEvent: {}
+[5.615086] (-) TimerEvent: {}
+[5.715329] (-) TimerEvent: {}
+[5.815590] (-) TimerEvent: {}
+[5.915854] (-) TimerEvent: {}
+[6.016096] (-) TimerEvent: {}
+[6.116379] (-) TimerEvent: {}
+[6.216652] (-) TimerEvent: {}
+[6.316927] (-) TimerEvent: {}
+[6.417184] (-) TimerEvent: {}
+[6.517456] (-) TimerEvent: {}
+[6.617803] (-) TimerEvent: {}
+[6.718177] (-) TimerEvent: {}
+[6.818512] (-) TimerEvent: {}
+[6.918874] (-) TimerEvent: {}
+[7.019285] (-) TimerEvent: {}
+[7.119648] (-) TimerEvent: {}
+[7.219982] (-) TimerEvent: {}
+[7.320336] (-) TimerEvent: {}
+[7.420672] (-) TimerEvent: {}
+[7.521060] (-) TimerEvent: {}
+[7.621328] (-) TimerEvent: {}
+[7.721566] (-) TimerEvent: {}
+[7.821809] (-) TimerEvent: {}
+[7.922098] (-) TimerEvent: {}
+[8.022403] (-) TimerEvent: {}
+[8.122677] (-) TimerEvent: {}
+[8.222938] (-) TimerEvent: {}
+[8.323218] (-) TimerEvent: {}
+[8.423483] (-) TimerEvent: {}
+[8.523762] (-) TimerEvent: {}
+[8.624036] (-) TimerEvent: {}
+[8.724326] (-) TimerEvent: {}
+[8.824595] (-) TimerEvent: {}
+[8.924844] (-) TimerEvent: {}
+[9.025126] (-) TimerEvent: {}
+[9.125384] (-) TimerEvent: {}
+[9.225619] (-) TimerEvent: {}
+[9.326031] (-) TimerEvent: {}
+[9.426298] (-) TimerEvent: {}
+[9.526583] (-) TimerEvent: {}
+[9.626840] (-) TimerEvent: {}
+[9.727135] (-) TimerEvent: {}
+[9.827384] (-) TimerEvent: {}
+[9.927672] (-) TimerEvent: {}
+[10.027930] (-) TimerEvent: {}
+[10.128332] (-) TimerEvent: {}
+[10.228687] (-) TimerEvent: {}
+[10.328984] (-) TimerEvent: {}
+[10.429339] (-) TimerEvent: {}
+[10.529667] (-) TimerEvent: {}
+[10.629979] (-) TimerEvent: {}
+[10.730285] (-) TimerEvent: {}
+[10.830678] (-) TimerEvent: {}
+[10.931101] (-) TimerEvent: {}
+[11.031576] (-) TimerEvent: {}
+[11.131968] (-) TimerEvent: {}
+[11.232316] (-) TimerEvent: {}
+[11.332808] (-) TimerEvent: {}
+[11.433768] (-) TimerEvent: {}
+[11.534972] (-) TimerEvent: {}
+[11.636339] (-) TimerEvent: {}
+[11.736767] (-) TimerEvent: {}
+[11.837197] (-) TimerEvent: {}
+[11.937733] (-) TimerEvent: {}
+[12.039883] (-) TimerEvent: {}
+[12.141228] (-) TimerEvent: {}
+[12.242015] (-) TimerEvent: {}
+[12.342853] (-) TimerEvent: {}
+[12.444107] (-) TimerEvent: {}
+[12.544841] (-) TimerEvent: {}
+[12.645369] (-) TimerEvent: {}
+[12.745580] (-) TimerEvent: {}
+[12.845848] (-) TimerEvent: {}
+[12.946132] (-) TimerEvent: {}
+[13.047069] (-) TimerEvent: {}
+[13.149034] (-) TimerEvent: {}
+[13.250157] (-) TimerEvent: {}
+[13.350912] (-) TimerEvent: {}
+[13.451616] (-) TimerEvent: {}
+[13.552091] (-) TimerEvent: {}
+[13.652431] (-) TimerEvent: {}
+[13.752706] (-) TimerEvent: {}
+[13.853329] (-) TimerEvent: {}
+[13.954351] (-) TimerEvent: {}
+[14.055572] (-) TimerEvent: {}
+[14.156903] (-) TimerEvent: {}
+[14.257894] (-) TimerEvent: {}
+[14.358201] (-) TimerEvent: {}
+[14.458888] (-) TimerEvent: {}
+[14.560177] (-) TimerEvent: {}
+[14.661070] (-) TimerEvent: {}
+[14.761381] (-) TimerEvent: {}
+[14.861630] (-) TimerEvent: {}
+[14.961890] (-) TimerEvent: {}
+[15.062152] (-) TimerEvent: {}
+[15.162432] (-) TimerEvent: {}
+[15.262686] (-) TimerEvent: {}
+[15.362942] (-) TimerEvent: {}
+[15.463214] (-) TimerEvent: {}
+[15.563504] (-) TimerEvent: {}
+[15.664147] (-) TimerEvent: {}
+[15.765210] (-) TimerEvent: {}
+[15.865514] (-) TimerEvent: {}
+[15.965820] (-) TimerEvent: {}
+[16.066112] (-) TimerEvent: {}
+[16.166420] (-) TimerEvent: {}
+[16.266755] (-) TimerEvent: {}
+[16.367119] (-) TimerEvent: {}
+[16.467435] (-) TimerEvent: {}
+[16.567768] (-) TimerEvent: {}
+[16.668126] (-) TimerEvent: {}
+[16.768463] (-) TimerEvent: {}
+[16.868826] (-) TimerEvent: {}
+[16.969171] (-) TimerEvent: {}
+[17.069541] (-) TimerEvent: {}
+[17.169857] (-) TimerEvent: {}
+[17.270228] (-) TimerEvent: {}
+[17.370768] (-) TimerEvent: {}
+[17.471128] (-) TimerEvent: {}
+[17.571413] (-) TimerEvent: {}
+[17.671677] (-) TimerEvent: {}
+[17.771977] (-) TimerEvent: {}
+[17.872304] (-) TimerEvent: {}
+[17.973103] (-) TimerEvent: {}
+[18.074706] (-) TimerEvent: {}
+[18.175856] (-) TimerEvent: {}
+[18.276382] (-) TimerEvent: {}
+[18.376821] (-) TimerEvent: {}
+[18.478808] (-) TimerEvent: {}
+[18.580179] (-) TimerEvent: {}
+[18.680456] (-) TimerEvent: {}
+[18.780699] (-) TimerEvent: {}
+[18.880973] (-) TimerEvent: {}
+[18.981219] (-) TimerEvent: {}
+[19.081462] (-) TimerEvent: {}
+[19.181736] (-) TimerEvent: {}
+[19.282043] (-) TimerEvent: {}
+[19.382411] (-) TimerEvent: {}
+[19.483457] (-) TimerEvent: {}
+[19.584686] (-) TimerEvent: {}
+[19.685557] (-) TimerEvent: {}
+[19.786056] (-) TimerEvent: {}
+[19.886423] (-) TimerEvent: {}
+[19.986731] (-) TimerEvent: {}
+[20.087032] (-) TimerEvent: {}
+[20.139529] (turtlesim) StderrLine: {'line': b"gmake[2]: *** Deleting file 'CMakeFiles/turtlesim_node.dir/src/turtle_frame.cpp.o'\n"}
+[20.140087] (turtlesim) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/turtlesim_node.dir/build.make:108: CMakeFiles/turtlesim_node.dir/src/turtle_frame.cpp.o] Interrupt\n'}
+[20.140266] (turtlesim) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:631: CMakeFiles/turtlesim_node.dir/all] Interrupt\n'}
+[20.140460] (turtlesim) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Interrupt\n'}
+[20.147700] (turtlesim) CommandEnded: {'returncode': -2}
+[20.187145] (-) TimerEvent: {}
+[20.287449] (-) TimerEvent: {}
+[20.387958] (-) TimerEvent: {}
+[20.488650] (-) TimerEvent: {}
+[20.521796] (turtlesim) JobEnded: {'identifier': 'turtlesim', 'rc': 'SIGINT'}
+[20.532569] (-) EventReactorShutdown: {}

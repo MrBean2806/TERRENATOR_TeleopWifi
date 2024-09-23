@@ -1,0 +1,11 @@
+[31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:207 (add_custom_target):
+  add_custom_target cannot create target "robot_uart_controller" because
+  another target with the same name already exists.  The existing target is
+  an executable created in source directory
+  "/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/src/robot_control".
+  See documentation for policy CMP0002 for more details.
+Call Stack (most recent call first):
+  CMakeLists.txt:40 (rosidl_generate_interfaces)
+
+[0m
+gmake: *** [Makefile:856: cmake_check_build_system] Error 1

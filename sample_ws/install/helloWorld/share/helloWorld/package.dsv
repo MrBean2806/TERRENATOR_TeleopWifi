@@ -1,0 +1,8 @@
+source;share/helloWorld/hook/cmake_prefix_path.ps1
+source;share/helloWorld/hook/cmake_prefix_path.dsv
+source;share/helloWorld/hook/cmake_prefix_path.sh
+source;share/helloWorld/local_setup.bash
+source;share/helloWorld/local_setup.dsv
+source;share/helloWorld/local_setup.ps1
+source;share/helloWorld/local_setup.sh
+source;share/helloWorld/local_setup.zsh

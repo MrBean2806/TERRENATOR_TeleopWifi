@@ -1,0 +1,25 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/robot_uart_controller.dir/src/robot_uart_controller.cpp.o[0m
+[01m[K/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/src/robot_control/src/robot_uart_controller.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K generarRampaVelocidad[m[K(Vel_espacial*, Vel_espacial*, std::vector<float>&, std::vector<float>&, std::vector<float>&)[m[K’:
+[01m[K/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/src/robot_control/src/robot_uart_controller.cpp:56:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvel_inicial[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   56 | void generarRampaVelocidad([01;35m[KVel_espacial* vel_inicial[m[K, Vel_espacial* vel_final,
+      |                            [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable robot_uart_controller[0m
+[100%] Built target robot_uart_controller
+-- Install configuration: ""
+-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/robot_control/lib/robot_control/robot_uart_controller
+-- Set non-toolchain portion of runtime path of "/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/robot_control/lib/robot_control/robot_uart_controller" to ""
+-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/robot_control/share/ament_index/resource_index/package_run_dependencies/robot_control
+-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/robot_control/share/ament_index/resource_index/parent_prefix_path/robot_control
+-- Up-to-date: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/robot_control/share/robot_control/environment/ament_prefix_path.sh
+-- Up-to-date: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/robot_control/share/robot_control/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/robot_control/share/robot_control/environment/path.sh
+-- Up-to-date: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/robot_control/share/robot_control/environment/path.dsv
+-- Up-to-date: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/robot_control/share/robot_control/local_setup.bash
+-- Up-to-date: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/robot_control/share/robot_control/local_setup.sh
+-- Up-to-date: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/robot_control/share/robot_control/local_setup.zsh
+-- Up-to-date: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/robot_control/share/robot_control/local_setup.dsv
+-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/robot_control/share/robot_control/package.dsv
+-- Up-to-date: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/robot_control/share/ament_index/resource_index/packages/robot_control
+-- Up-to-date: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/robot_control/share/robot_control/cmake/robot_controlConfig.cmake
+-- Up-to-date: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/robot_control/share/robot_control/cmake/robot_controlConfig-version.cmake
+-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/robot_control/share/robot_control/package.xml

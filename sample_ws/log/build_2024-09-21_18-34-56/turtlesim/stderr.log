@@ -1,0 +1,4 @@
+gmake[2]: *** Deleting file 'CMakeFiles/turtlesim_node.dir/src/turtle_frame.cpp.o'
+gmake[2]: *** [CMakeFiles/turtlesim_node.dir/build.make:108: CMakeFiles/turtlesim_node.dir/src/turtle_frame.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:631: CMakeFiles/turtlesim_node.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

@@ -1,0 +1,8 @@
+[01m[K/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/src/robot_control/src/robot_uart_controller.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K generarRampaVelocidad[m[K(Vel_espacial*, Vel_espacial*, std::vector<float>&, std::vector<float>&, std::vector<float>&)[m[K’:
+[01m[K/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/src/robot_control/src/robot_uart_controller.cpp:55:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvel_inicial[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   55 | void generarRampaVelocidad([01;35m[KVel_espacial* vel_inicial[m[K, Vel_espacial* vel_final,
+      |                            [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/src/robot_control/src/robot_uart_controller.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K joy_callback[m[K(sensor_msgs::msg::Joy_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/src/robot_control/src/robot_uart_controller.cpp:112:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  112 | void joy_callback([01;35m[Kconst sensor_msgs::msg::Joy::SharedPtr msg[m[K)
+      |                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K

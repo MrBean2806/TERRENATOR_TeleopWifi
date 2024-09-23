@@ -1,0 +1,10 @@
+/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/build/cameras/CMakeFiles/uninstall.dir
+/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/build/cameras/CMakeFiles/cameras_uninstall.dir
+/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/build/cameras/CMakeFiles/cameras.dir
+/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/build/cameras/CMakeFiles/test.dir
+/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/build/cameras/CMakeFiles/edit_cache.dir
+/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/build/cameras/CMakeFiles/rebuild_cache.dir
+/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/build/cameras/CMakeFiles/list_install_components.dir
+/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/build/cameras/CMakeFiles/install.dir
+/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/build/cameras/CMakeFiles/install/local.dir
+/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/build/cameras/CMakeFiles/install/strip.dir

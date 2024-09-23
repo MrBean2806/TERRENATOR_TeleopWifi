@@ -1,0 +1,8 @@
+setup.py
+robot_control/__init__.py
+robot_control.egg-info/PKG-INFO
+robot_control.egg-info/SOURCES.txt
+robot_control.egg-info/dependency_links.txt
+robot_control.egg-info/top_level.txt
+robot_control/msg/__init__.py
+robot_control/msg/_trama_datos.py

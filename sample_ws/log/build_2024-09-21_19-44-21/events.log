@@ -1,0 +1,181 @@
+[0.000000] (-) TimerEvent: {}
+[0.000768] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.000832] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.000856] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.007841] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.008048] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/src/cpp_pubsub', '-DCMAKE_INSTALL_PREFIX=/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/cpp_pubsub'], 'cwd': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/build/cpp_pubsub', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US', 'USER': 'agusb', 'XDG_SEAT': 'seat0', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/agusb', 'OLDPWD': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/src', 'DESKTOP_SESSION': 'cinnamon', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'CINNAMON_VERSION': '6.2.9', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/jazzy/', 'COLCON_PREFIX_PATH': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'agusb', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': 'c2', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/agusb-Inspiron-5584:@/tmp/.ICE-unix/1423,unix/agusb-Inspiron-5584:/tmp/.ICE-unix/1423', 'GDM_LANG': 'en_US', 'GTK3_MODULES': 'xapp-gtk3-module', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/36ec091d_8f46_48ff_8492_c94ffe10915c', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'X-Cinnamon', 'XDG_SESSION_DESKTOP': 'cinnamon', 'XAUTHORITY': '/home/agusb/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.118', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/agusb', 'AMENT_PREFIX_PATH': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'ROS_MASTER_URI': 'http://nano:11311', 'GDMSESSION': 'cinnamon', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'XDG_VTNR': '7', 'PWD': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/build/cpp_pubsub', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-cinnamon:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/cinnamon:/usr/share/gnome:/home/agusb/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share', 'PYTHONPATH': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.095010] (cpp_pubsub) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.2.0\n'}
+[0.099897] (-) TimerEvent: {}
+[0.189168] (cpp_pubsub) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.2.0\n'}
+[0.200004] (-) TimerEvent: {}
+[0.203749] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.291894] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.300109] (-) TimerEvent: {}
+[0.303322] (cpp_pubsub) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.303573] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.304182] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.314087] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.400243] (-) TimerEvent: {}
+[0.407327] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.419274] (cpp_pubsub) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.419573] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.420097] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.422185] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.500343] (-) TimerEvent: {}
+[0.556943] (cpp_pubsub) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.600460] (-) TimerEvent: {}
+[0.662460] (cpp_pubsub) StdoutLine: {'line': b'-- Found rclcpp: 28.1.3 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.700596] (-) TimerEvent: {}
+[0.707146] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.724094] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.741421] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.760147] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.800709] (-) TimerEvent: {}
+[0.850099] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.853120] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.900850] (-) TimerEvent: {}
+[0.932579] (cpp_pubsub) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[0.951990] (cpp_pubsub) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[0.974033] (cpp_pubsub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.000967] (-) TimerEvent: {}
+[1.061515] (cpp_pubsub) StdoutLine: {'line': b'-- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[1.101083] (-) TimerEvent: {}
+[1.169783] (cpp_pubsub) StdoutLine: {'line': b'-- Configuring done (1.1s)\n'}
+[1.182155] (cpp_pubsub) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.183719] (cpp_pubsub) StdoutLine: {'line': b'-- Build files have been written to: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/build/cpp_pubsub\n'}
+[1.192379] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[1.193661] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[1.193696] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/build/cpp_pubsub', '--', '-j8', '-l8'], 'cwd': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/build/cpp_pubsub', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US', 'USER': 'agusb', 'XDG_SEAT': 'seat0', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/agusb', 'OLDPWD': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/src', 'DESKTOP_SESSION': 'cinnamon', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'CINNAMON_VERSION': '6.2.9', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/jazzy/', 'COLCON_PREFIX_PATH': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'agusb', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': 'c2', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/agusb-Inspiron-5584:@/tmp/.ICE-unix/1423,unix/agusb-Inspiron-5584:/tmp/.ICE-unix/1423', 'GDM_LANG': 'en_US', 'GTK3_MODULES': 'xapp-gtk3-module', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/36ec091d_8f46_48ff_8492_c94ffe10915c', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'X-Cinnamon', 'XDG_SESSION_DESKTOP': 'cinnamon', 'XAUTHORITY': '/home/agusb/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.118', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/agusb', 'AMENT_PREFIX_PATH': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'ROS_MASTER_URI': 'http://nano:11311', 'GDMSESSION': 'cinnamon', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'XDG_VTNR': '7', 'PWD': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/build/cpp_pubsub', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-cinnamon:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/cinnamon:/usr/share/gnome:/home/agusb/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share', 'PYTHONPATH': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[1.201227] (-) TimerEvent: {}
+[1.246006] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.o\x1b[0m\n'}
+[1.246278] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_lambda_function.cpp.o\x1b[0m\n'}
+[1.301361] (-) TimerEvent: {}
+[1.401599] (-) TimerEvent: {}
+[1.501858] (-) TimerEvent: {}
+[1.602121] (-) TimerEvent: {}
+[1.702302] (-) TimerEvent: {}
+[1.802561] (-) TimerEvent: {}
+[1.902832] (-) TimerEvent: {}
+[2.003091] (-) TimerEvent: {}
+[2.103347] (-) TimerEvent: {}
+[2.203573] (-) TimerEvent: {}
+[2.303898] (-) TimerEvent: {}
+[2.404140] (-) TimerEvent: {}
+[2.504407] (-) TimerEvent: {}
+[2.604711] (-) TimerEvent: {}
+[2.704998] (-) TimerEvent: {}
+[2.805292] (-) TimerEvent: {}
+[2.905535] (-) TimerEvent: {}
+[3.005807] (-) TimerEvent: {}
+[3.106089] (-) TimerEvent: {}
+[3.206350] (-) TimerEvent: {}
+[3.306615] (-) TimerEvent: {}
+[3.406881] (-) TimerEvent: {}
+[3.507158] (-) TimerEvent: {}
+[3.607488] (-) TimerEvent: {}
+[3.707857] (-) TimerEvent: {}
+[3.808210] (-) TimerEvent: {}
+[3.908501] (-) TimerEvent: {}
+[4.008842] (-) TimerEvent: {}
+[4.109191] (-) TimerEvent: {}
+[4.209475] (-) TimerEvent: {}
+[4.309742] (-) TimerEvent: {}
+[4.410042] (-) TimerEvent: {}
+[4.510305] (-) TimerEvent: {}
+[4.610563] (-) TimerEvent: {}
+[4.710854] (-) TimerEvent: {}
+[4.811118] (-) TimerEvent: {}
+[4.911389] (-) TimerEvent: {}
+[5.011719] (-) TimerEvent: {}
+[5.112096] (-) TimerEvent: {}
+[5.212443] (-) TimerEvent: {}
+[5.312716] (-) TimerEvent: {}
+[5.413010] (-) TimerEvent: {}
+[5.513308] (-) TimerEvent: {}
+[5.613580] (-) TimerEvent: {}
+[5.713908] (-) TimerEvent: {}
+[5.814172] (-) TimerEvent: {}
+[5.914397] (-) TimerEvent: {}
+[6.014645] (-) TimerEvent: {}
+[6.114945] (-) TimerEvent: {}
+[6.215215] (-) TimerEvent: {}
+[6.315443] (-) TimerEvent: {}
+[6.415739] (-) TimerEvent: {}
+[6.516011] (-) TimerEvent: {}
+[6.616303] (-) TimerEvent: {}
+[6.716632] (-) TimerEvent: {}
+[6.816988] (-) TimerEvent: {}
+[6.917317] (-) TimerEvent: {}
+[7.001906] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[7.017445] (-) TimerEvent: {}
+[7.117769] (-) TimerEvent: {}
+[7.218094] (-) TimerEvent: {}
+[7.262588] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] Built target talker\n'}
+[7.318245] (-) TimerEvent: {}
+[7.418503] (-) TimerEvent: {}
+[7.518809] (-) TimerEvent: {}
+[7.619124] (-) TimerEvent: {}
+[7.719487] (-) TimerEvent: {}
+[7.819760] (-) TimerEvent: {}
+[7.920032] (-) TimerEvent: {}
+[8.020338] (-) TimerEvent: {}
+[8.120607] (-) TimerEvent: {}
+[8.220882] (-) TimerEvent: {}
+[8.321137] (-) TimerEvent: {}
+[8.421420] (-) TimerEvent: {}
+[8.521683] (-) TimerEvent: {}
+[8.621946] (-) TimerEvent: {}
+[8.722221] (-) TimerEvent: {}
+[8.822527] (-) TimerEvent: {}
+[8.922785] (-) TimerEvent: {}
+[9.023096] (-) TimerEvent: {}
+[9.123384] (-) TimerEvent: {}
+[9.223644] (-) TimerEvent: {}
+[9.323902] (-) TimerEvent: {}
+[9.424166] (-) TimerEvent: {}
+[9.524401] (-) TimerEvent: {}
+[9.624660] (-) TimerEvent: {}
+[9.724949] (-) TimerEvent: {}
+[9.825208] (-) TimerEvent: {}
+[9.925513] (-) TimerEvent: {}
+[10.025783] (-) TimerEvent: {}
+[10.126042] (-) TimerEvent: {}
+[10.226314] (-) TimerEvent: {}
+[10.326614] (-) TimerEvent: {}
+[10.426886] (-) TimerEvent: {}
+[10.527163] (-) TimerEvent: {}
+[10.627514] (-) TimerEvent: {}
+[10.727865] (-) TimerEvent: {}
+[10.786989] (cpp_pubsub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[10.827991] (-) TimerEvent: {}
+[10.928316] (-) TimerEvent: {}
+[11.028638] (-) TimerEvent: {}
+[11.129071] (-) TimerEvent: {}
+[11.147867] (cpp_pubsub) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[11.164691] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[11.201114] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'install'}
+[11.214292] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/build/cpp_pubsub'], 'cwd': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/build/cpp_pubsub', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US', 'USER': 'agusb', 'XDG_SEAT': 'seat0', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/agusb', 'OLDPWD': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/src', 'DESKTOP_SESSION': 'cinnamon', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'CINNAMON_VERSION': '6.2.9', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/jazzy/', 'COLCON_PREFIX_PATH': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'agusb', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': 'c2', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/agusb-Inspiron-5584:@/tmp/.ICE-unix/1423,unix/agusb-Inspiron-5584:/tmp/.ICE-unix/1423', 'GDM_LANG': 'en_US', 'GTK3_MODULES': 'xapp-gtk3-module', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/36ec091d_8f46_48ff_8492_c94ffe10915c', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'X-Cinnamon', 'XDG_SESSION_DESKTOP': 'cinnamon', 'XAUTHORITY': '/home/agusb/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.118', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/agusb', 'AMENT_PREFIX_PATH': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'ROS_MASTER_URI': 'http://nano:11311', 'GDMSESSION': 'cinnamon', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'XDG_VTNR': '7', 'PWD': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/build/cpp_pubsub', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-cinnamon:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/cinnamon:/usr/share/gnome:/home/agusb/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share', 'PYTHONPATH': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[11.225949] (cpp_pubsub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.226276] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/cpp_pubsub/lib/cpp_pubsub/talker\n'}
+[11.227820] (cpp_pubsub) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""\n'}
+[11.228122] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/cpp_pubsub/lib/cpp_pubsub/listener\n'}
+[11.229187] (-) TimerEvent: {}
+[11.233006] (cpp_pubsub) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""\n'}
+[11.233399] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub\n'}
+[11.233755] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub\n'}
+[11.234055] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh\n'}
+[11.234305] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv\n'}
+[11.234501] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh\n'}
+[11.234641] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv\n'}
+[11.234809] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash\n'}
+[11.234939] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh\n'}
+[11.235111] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh\n'}
+[11.235281] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv\n'}
+[11.235414] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv\n'}
+[11.235572] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub\n'}
+[11.235740] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake\n'}
+[11.235910] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake\n'}
+[11.236073] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml\n'}
+[11.238616] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[11.299442] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 0}
+[11.300306] (-) EventReactorShutdown: {}

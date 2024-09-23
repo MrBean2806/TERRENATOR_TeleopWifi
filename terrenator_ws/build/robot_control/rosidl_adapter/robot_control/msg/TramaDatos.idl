@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from robot_control/msg/TramaDatos.msg
+// generated code does not contain a copyright notice
+
+
+module robot_control {
+  module msg {
+    typedef float float__4[4];
+    struct TramaDatos {
+      float__4 u_m;
+
+      uint16 v_bat;
+    };
+  };
+};

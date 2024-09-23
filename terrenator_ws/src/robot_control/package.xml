@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>robot_control</name>
+  <version>0.0.0</version>
+  <description>Paquete para gestionar la recepción de comandos del joystick, el envio de velocidad espacial al CBN y la recepcion de datos de telemetria del mismo</description>
+  <maintainer email="agusb@todo.todo">agusb</maintainer>
+  <license>TODO: License declaration</license>
+
+  <!-- <buildtool_depend>catkin</buildtool_depend> -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- depend = build_depend + build_export_depend + exec_depend -->
+
+  <!-- <build_depend>roscpp</build_depend> -->
+  <depend>rclcpp</depend>
+  <depend>sensor_msgs</depend>
+  <depend>interfaces</depend>
+
+  <!-- <build_depend>sensor_msgs</build_depend> -->
+  <build_depend>std_msgs</build_depend>
+  <build_depend>libboost-all-dev</build_depend>
+
+  <!-- <exec_depend>sensor_msgs</exec_depend> -->
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>message_runtime</exec_depend>
+  <exec_depend>libboost-all-dev</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

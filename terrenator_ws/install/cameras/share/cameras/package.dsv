@@ -1,0 +1,8 @@
+source;share/cameras/hook/cmake_prefix_path.ps1
+source;share/cameras/hook/cmake_prefix_path.dsv
+source;share/cameras/hook/cmake_prefix_path.sh
+source;share/cameras/local_setup.bash
+source;share/cameras/local_setup.dsv
+source;share/cameras/local_setup.ps1
+source;share/cameras/local_setup.sh
+source;share/cameras/local_setup.zsh

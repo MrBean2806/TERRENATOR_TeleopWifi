@@ -1,0 +1,16 @@
+/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/cameras/lib/cameras/cameras
+/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/cameras/share/ament_index/resource_index/package_run_dependencies/cameras
+/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/cameras/share/ament_index/resource_index/parent_prefix_path/cameras
+/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/cameras/share/cameras/environment/ament_prefix_path.sh
+/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/cameras/share/cameras/environment/ament_prefix_path.dsv
+/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/cameras/share/cameras/environment/path.sh
+/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/cameras/share/cameras/environment/path.dsv
+/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/cameras/share/cameras/local_setup.bash
+/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/cameras/share/cameras/local_setup.sh
+/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/cameras/share/cameras/local_setup.zsh
+/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/cameras/share/cameras/local_setup.dsv
+/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/cameras/share/cameras/package.dsv
+/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/cameras/share/ament_index/resource_index/packages/cameras
+/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/cameras/share/cameras/cmake/camerasConfig.cmake
+/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/cameras/share/cameras/cmake/camerasConfig-version.cmake
+/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/cameras/share/cameras/package.xml

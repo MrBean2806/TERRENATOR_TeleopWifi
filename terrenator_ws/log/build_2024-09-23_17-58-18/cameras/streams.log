@@ -1,0 +1,22 @@
+[0.018s] Invoking command in '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/build/cameras': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/build/cameras -- -j8 -l8
+[0.124s] [100%] Built target cameras
+[0.150s] Invoked command in '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/build/cameras' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/build/cameras -- -j8 -l8
+[0.247s] Invoking command in '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/build/cameras': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/build/cameras
+[0.275s] -- Install configuration: ""
+[0.276s] -- Up-to-date: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/cameras/lib/cameras/cameras
+[0.276s] -- Up-to-date: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/cameras/share/ament_index/resource_index/package_run_dependencies/cameras
+[0.276s] -- Up-to-date: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/cameras/share/ament_index/resource_index/parent_prefix_path/cameras
+[0.277s] -- Up-to-date: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/cameras/share/cameras/environment/ament_prefix_path.sh
+[0.277s] -- Up-to-date: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/cameras/share/cameras/environment/ament_prefix_path.dsv
+[0.277s] -- Up-to-date: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/cameras/share/cameras/environment/path.sh
+[0.277s] -- Up-to-date: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/cameras/share/cameras/environment/path.dsv
+[0.277s] -- Up-to-date: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/cameras/share/cameras/local_setup.bash
+[0.278s] -- Up-to-date: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/cameras/share/cameras/local_setup.sh
+[0.278s] -- Up-to-date: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/cameras/share/cameras/local_setup.zsh
+[0.278s] -- Up-to-date: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/cameras/share/cameras/local_setup.dsv
+[0.279s] -- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/cameras/share/cameras/package.dsv
+[0.279s] -- Up-to-date: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/cameras/share/ament_index/resource_index/packages/cameras
+[0.279s] -- Up-to-date: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/cameras/share/cameras/cmake/camerasConfig.cmake
+[0.280s] -- Up-to-date: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/cameras/share/cameras/cmake/camerasConfig-version.cmake
+[0.280s] -- Up-to-date: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/cameras/share/cameras/package.xml
+[0.282s] Invoked command in '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/build/cameras' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/build/cameras

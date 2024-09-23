@@ -1,0 +1,16 @@
+/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/robot_control/lib/robot_control/robot_uart_controller
+/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/robot_control/share/ament_index/resource_index/package_run_dependencies/robot_control
+/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/robot_control/share/ament_index/resource_index/parent_prefix_path/robot_control
+/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/robot_control/share/robot_control/environment/ament_prefix_path.sh
+/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/robot_control/share/robot_control/environment/ament_prefix_path.dsv
+/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/robot_control/share/robot_control/environment/path.sh
+/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/robot_control/share/robot_control/environment/path.dsv
+/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/robot_control/share/robot_control/local_setup.bash
+/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/robot_control/share/robot_control/local_setup.sh
+/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/robot_control/share/robot_control/local_setup.zsh
+/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/robot_control/share/robot_control/local_setup.dsv
+/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/robot_control/share/robot_control/package.dsv
+/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/robot_control/share/ament_index/resource_index/packages/robot_control
+/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/robot_control/share/robot_control/cmake/robot_controlConfig.cmake
+/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/robot_control/share/robot_control/cmake/robot_controlConfig-version.cmake
+/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/robot_control/share/robot_control/package.xml

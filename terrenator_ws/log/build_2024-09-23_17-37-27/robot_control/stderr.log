@@ -1,0 +1,5 @@
+[31mCMake Error at CMakeLists.txt:36 (target_compile_features):
+  Cannot specify compile features for target "robot_uart_controller" which is
+  not built by this project.
+
+[0m

@@ -1,0 +1,17 @@
+[0.730s] Invoking command in '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/src/examples/rclpy/topics/minimal_publisher': AMENT_PREFIX_PATH=/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_publisher:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/examples_rclpy_minimal_publisher/pytest.xml --junit-prefix=examples_rclpy_minimal_publisher -o cache_dir=/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/examples_rclpy_minimal_publisher/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/examples_rclpy_minimal_publisher:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[1.433s] [1m============================= test session starts ==============================[0m
+[1.433s] platform linux -- Python 3.12.3, pytest-7.4.4, pluggy-1.4.0
+[1.433s] cachedir: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/examples_rclpy_minimal_publisher/.pytest_cache
+[1.436s] rootdir: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/src/examples/rclpy
+[1.436s] configfile: pytest.ini
+[1.437s] plugins: ament-flake8-0.17.1, ament-pep257-0.17.1, ament-xmllint-0.17.1, ament-copyright-0.17.1, launch-testing-3.4.2, launch-testing-ros-0.26.5, ament-lint-0.17.1, cov-4.1.0, colcon-core-0.17.0
+[1.591s] [1mcollecting ... [0m[1m
+[1.591s] collected 3 items                                                              [0m
+[1.596s] 
+[2.497s] test/test_copyright.py [32m.[0m[32m                                                 [ 33%][0m
+[2.764s] test/test_flake8.py [32m.[0m[32m                                                    [ 66%][0m
+[2.787s] test/test_pep257.py [32m.[0m[32m                                                    [100%][0m
+[2.787s] 
+[2.788s] - generated xml file: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/examples_rclpy_minimal_publisher/pytest.xml -
+[2.788s] [32m============================== [32m[1m3 passed[0m[32m in 1.41s[0m[32m ===============================[0m
+[3.170s] Invoked command in '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/src/examples/rclpy/topics/minimal_publisher' returned '0': AMENT_PREFIX_PATH=/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_publisher:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/examples_rclpy_minimal_publisher/pytest.xml --junit-prefix=examples_rclpy_minimal_publisher -o cache_dir=/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/examples_rclpy_minimal_publisher/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/examples_rclpy_minimal_publisher:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest

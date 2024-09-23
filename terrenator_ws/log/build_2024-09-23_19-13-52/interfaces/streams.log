@@ -1,0 +1,29 @@
+[0.013s] Invoking command in '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/interfaces
+[0.123s] -- The C compiler identification is GNU 13.2.0
+[0.186s] -- The CXX compiler identification is GNU 13.2.0
+[0.199s] -- Detecting C compiler ABI info
+[0.289s] -- Detecting C compiler ABI info - done
+[0.301s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.302s] -- Detecting C compile features
+[0.302s] -- Detecting C compile features - done
+[0.314s] -- Detecting CXX compiler ABI info
+[0.410s] -- Detecting CXX compiler ABI info - done
+[0.421s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.422s] -- Detecting CXX compile features
+[0.422s] -- Detecting CXX compile features - done
+[0.424s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.663s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.800s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.810s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.867s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.910s] -- Found rosidl_adapter: 4.6.3 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.912s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:95 (message):
+[0.912s]   rosidl_generate_interfaces() the passed file 'msg/Num.msg' doesn't exist
+[0.912s]   relative to the CMAKE_CURRENT_SOURCE_DIR
+[0.912s]   '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/src/interfaces'
+[0.912s] Call Stack (most recent call first):
+[0.912s]   CMakeLists.txt:13 (rosidl_generate_interfaces)
+[0.912s] 
+[0.913s] [0m
+[0.913s] -- Configuring incomplete, errors occurred!
+[0.917s] Invoked command in '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/build/interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/install/interfaces

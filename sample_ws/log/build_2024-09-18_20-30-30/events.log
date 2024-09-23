@@ -1,0 +1,1304 @@
+[0.000000] (-) TimerEvent: {}
+[0.000817] (turtlesim) JobQueued: {'identifier': 'turtlesim', 'dependencies': OrderedDict()}
+[0.000998] (turtlesim) JobStarted: {'identifier': 'turtlesim'}
+[0.013598] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'cmake'}
+[0.014141] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/src/ros_tutorials/turtlesim', '-DCMAKE_INSTALL_PREFIX=/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim'], 'cwd': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/build/turtlesim', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US', 'USER': 'agusb', 'XDG_SEAT': 'seat0', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_wait_set/lib:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/agusb', 'OLDPWD': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/src', 'DESKTOP_SESSION': 'cinnamon', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'CINNAMON_VERSION': '6.2.9', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'agusb', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': 'c2', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/agusb-Inspiron-5584:@/tmp/.ICE-unix/1423,unix/agusb-Inspiron-5584:/tmp/.ICE-unix/1423', 'GDM_LANG': 'en_US', 'GTK3_MODULES': 'xapp-gtk3-module', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/c1a27e21_23e6_4c3e_9b6f_4e306d07de2d', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'X-Cinnamon', 'XDG_SESSION_DESKTOP': 'cinnamon', 'XAUTHORITY': '/home/agusb/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.118', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/agusb', 'AMENT_PREFIX_PATH': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/launch_testing_examples:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_service:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_publisher:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_client:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_action_server:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_action_client:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_guard_conditions:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_executors:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_wait_set:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_timer:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_service:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_composition:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_client:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_cbg_executor:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_async_client:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'cinnamon', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'XDG_VTNR': '7', 'PWD': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/build/turtlesim', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-cinnamon:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/cinnamon:/usr/share/gnome:/home/agusb/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share', 'PYTHONPATH': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/launch_testing_examples:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/launch_testing_examples/lib/python3.12/site-packages:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/examples_rclpy_pointcloud_publisher:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.12/site-packages:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/examples_rclpy_minimal_subscriber:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.12/site-packages:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/examples_rclpy_minimal_service:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.12/site-packages:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/examples_rclpy_minimal_publisher:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.12/site-packages:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/examples_rclpy_minimal_client:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.12/site-packages:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/examples_rclpy_minimal_action_server:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.12/site-packages:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/examples_rclpy_minimal_action_client:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.12/site-packages:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/examples_rclpy_guard_conditions:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.12/site-packages:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/examples_rclpy_executors:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_executors/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_wait_set:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_timer:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_service:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_composition:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_client:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_cbg_executor:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_async_client:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/launch_testing_examples:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_service:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_publisher:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_client:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_action_server:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_action_client:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_guard_conditions:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy'}), 'shell': False}
+[0.091389] (turtlesim) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.2.0\n'}
+[0.099517] (-) TimerEvent: {}
+[0.174832] (turtlesim) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.2.0\n'}
+[0.193715] (turtlesim) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199667] (-) TimerEvent: {}
+[0.299959] (-) TimerEvent: {}
+[0.303017] (turtlesim) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.319085] (turtlesim) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.319374] (turtlesim) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.319994] (turtlesim) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.329567] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.400100] (-) TimerEvent: {}
+[0.450787] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.463459] (turtlesim) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.463804] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.464436] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.468570] (turtlesim) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.500209] (-) TimerEvent: {}
+[0.600412] (-) TimerEvent: {}
+[0.677190] (turtlesim) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.700520] (-) TimerEvent: {}
+[0.800795] (-) TimerEvent: {}
+[0.842816] (turtlesim) StdoutLine: {'line': b'-- Found ament_index_cpp: 1.8.1 (/opt/ros/jazzy/share/ament_index_cpp/cmake)\n'}
+[0.856694] (turtlesim) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[0.900842] (-) TimerEvent: {}
+[0.912484] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.930867] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.951869] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.974447] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.000932] (-) TimerEvent: {}
+[1.071061] (turtlesim) StdoutLine: {'line': b'-- Found rcl_interfaces: 2.0.2 (/opt/ros/jazzy/share/rcl_interfaces/cmake)\n'}
+[1.101052] (-) TimerEvent: {}
+[1.122303] (turtlesim) StdoutLine: {'line': b'-- Found rclcpp: 28.1.3 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.155281] (turtlesim) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.159665] (turtlesim) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.201179] (-) TimerEvent: {}
+[1.255592] (turtlesim) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[1.281570] (turtlesim) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[1.301295] (-) TimerEvent: {}
+[1.313772] (turtlesim) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.401422] (-) TimerEvent: {}
+[1.419324] (turtlesim) StdoutLine: {'line': b'-- Found rclcpp_action: 28.1.3 (/opt/ros/jazzy/share/rclcpp_action/cmake)\n'}
+[1.484407] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[1.501547] (-) TimerEvent: {}
+[1.511008] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.3 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[1.518033] (turtlesim) StdoutLine: {'line': b'-- Found std_srvs: 5.3.5 (/opt/ros/jazzy/share/std_srvs/cmake)\n'}
+[1.601700] (-) TimerEvent: {}
+[1.701949] (-) TimerEvent: {}
+[1.802199] (-) TimerEvent: {}
+[1.902429] (-) TimerEvent: {}
+[2.002796] (-) TimerEvent: {}
+[2.103032] (-) TimerEvent: {}
+[2.203464] (-) TimerEvent: {}
+[2.303723] (-) TimerEvent: {}
+[2.403973] (-) TimerEvent: {}
+[2.416370] (turtlesim) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[2.504084] (-) TimerEvent: {}
+[2.604399] (-) TimerEvent: {}
+[2.704705] (-) TimerEvent: {}
+[2.805016] (-) TimerEvent: {}
+[2.905297] (-) TimerEvent: {}
+[3.005525] (-) TimerEvent: {}
+[3.105738] (-) TimerEvent: {}
+[3.205982] (-) TimerEvent: {}
+[3.306219] (-) TimerEvent: {}
+[3.406460] (-) TimerEvent: {}
+[3.506690] (-) TimerEvent: {}
+[3.570702] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.606914] (-) TimerEvent: {}
+[3.707373] (-) TimerEvent: {}
+[3.807616] (-) TimerEvent: {}
+[3.907841] (-) TimerEvent: {}
+[4.008060] (-) TimerEvent: {}
+[4.026586] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.042163] (turtlesim) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[4.109251] (-) TimerEvent: {}
+[4.209496] (-) TimerEvent: {}
+[4.236469] (turtlesim) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[4.309626] (-) TimerEvent: {}
+[4.409864] (-) TimerEvent: {}
+[4.510084] (-) TimerEvent: {}
+[4.610318] (-) TimerEvent: {}
+[4.710548] (-) TimerEvent: {}
+[4.810889] (-) TimerEvent: {}
+[4.867051] (turtlesim) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[4.911189] (-) TimerEvent: {}
+[4.976423] (turtlesim) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[5.011315] (-) TimerEvent: {}
+[5.017552] (turtlesim) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[5.020516] (turtlesim) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[5.022538] (turtlesim) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/src/ros_tutorials/turtlesim/include\n'}
+[5.022650] (turtlesim) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[5.025376] (turtlesim) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[5.025879] (turtlesim) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[5.027448] (turtlesim) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[5.027815] (turtlesim) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[5.029628] (turtlesim) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.031681] (turtlesim) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[5.035094] (turtlesim) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[5.035258] (turtlesim) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[5.036369] (turtlesim) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.040119] (turtlesim) StdoutLine: {'line': b'-- Configuring done (5.0s)\n'}
+[5.111414] (-) TimerEvent: {}
+[5.130899] (turtlesim) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[5.135865] (turtlesim) StdoutLine: {'line': b'-- Build files have been written to: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/build/turtlesim\n'}
+[5.154781] (turtlesim) CommandEnded: {'returncode': 0}
+[5.155457] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'build'}
+[5.156510] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/build/turtlesim', '--', '-j8', '-l8'], 'cwd': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/build/turtlesim', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US', 'USER': 'agusb', 'XDG_SEAT': 'seat0', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_wait_set/lib:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/agusb', 'OLDPWD': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/src', 'DESKTOP_SESSION': 'cinnamon', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'CINNAMON_VERSION': '6.2.9', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'agusb', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': 'c2', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/agusb-Inspiron-5584:@/tmp/.ICE-unix/1423,unix/agusb-Inspiron-5584:/tmp/.ICE-unix/1423', 'GDM_LANG': 'en_US', 'GTK3_MODULES': 'xapp-gtk3-module', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/c1a27e21_23e6_4c3e_9b6f_4e306d07de2d', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'X-Cinnamon', 'XDG_SESSION_DESKTOP': 'cinnamon', 'XAUTHORITY': '/home/agusb/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.118', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/agusb', 'AMENT_PREFIX_PATH': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/launch_testing_examples:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_service:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_publisher:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_client:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_action_server:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_action_client:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_guard_conditions:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_executors:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_wait_set:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_timer:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_service:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_composition:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_client:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_cbg_executor:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_async_client:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'cinnamon', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'XDG_VTNR': '7', 'PWD': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/build/turtlesim', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-cinnamon:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/cinnamon:/usr/share/gnome:/home/agusb/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share', 'PYTHONPATH': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/launch_testing_examples:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/launch_testing_examples/lib/python3.12/site-packages:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/examples_rclpy_pointcloud_publisher:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.12/site-packages:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/examples_rclpy_minimal_subscriber:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.12/site-packages:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/examples_rclpy_minimal_service:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.12/site-packages:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/examples_rclpy_minimal_publisher:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.12/site-packages:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/examples_rclpy_minimal_client:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.12/site-packages:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/examples_rclpy_minimal_action_server:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.12/site-packages:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/examples_rclpy_minimal_action_client:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.12/site-packages:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/examples_rclpy_guard_conditions:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.12/site-packages:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/examples_rclpy_executors:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_executors/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_wait_set:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_timer:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_service:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_composition:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_client:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_cbg_executor:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_async_client:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/launch_testing_examples:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_service:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_publisher:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_client:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_action_server:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_action_client:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_guard_conditions:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy'}), 'shell': False}
+[5.211568] (-) TimerEvent: {}
+[5.222308] (turtlesim) StdoutLine: {'line': b'[  0%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[5.235734] (turtlesim) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_copy_turtlesim\n'}
+[5.311702] (-) TimerEvent: {}
+[5.411984] (-) TimerEvent: {}
+[5.512231] (-) TimerEvent: {}
+[5.536356] (turtlesim) StdoutLine: {'line': b'running egg_info\n'}
+[5.537286] (turtlesim) StdoutLine: {'line': b'creating turtlesim.egg-info\n'}
+[5.561915] (turtlesim) StdoutLine: {'line': b'writing turtlesim.egg-info/PKG-INFO\n'}
+[5.562247] (turtlesim) StdoutLine: {'line': b'writing dependency_links to turtlesim.egg-info/dependency_links.txt\n'}
+[5.562481] (turtlesim) StdoutLine: {'line': b'writing top-level names to turtlesim.egg-info/top_level.txt\n'}
+[5.562688] (turtlesim) StdoutLine: {'line': b"writing manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[5.612374] (-) TimerEvent: {}
+[5.627253] (turtlesim) StdoutLine: {'line': b'[  0%] Built target turtlesim__rosidl_generator_type_description\n'}
+[5.642107] (turtlesim) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[5.654802] (turtlesim) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[5.655076] (turtlesim) StdoutLine: {'line': b"reading manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[5.655595] (turtlesim) StdoutLine: {'line': b"writing manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[5.708696] (turtlesim) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_build_turtlesim_egg\n'}
+[5.712483] (-) TimerEvent: {}
+[5.812802] (-) TimerEvent: {}
+[5.913110] (-) TimerEvent: {}
+[6.013393] (-) TimerEvent: {}
+[6.113623] (-) TimerEvent: {}
+[6.213934] (-) TimerEvent: {}
+[6.314215] (-) TimerEvent: {}
+[6.414507] (-) TimerEvent: {}
+[6.514841] (-) TimerEvent: {}
+[6.615143] (-) TimerEvent: {}
+[6.715444] (-) TimerEvent: {}
+[6.815923] (-) TimerEvent: {}
+[6.854161] (turtlesim) StdoutLine: {'line': b'[  2%] Built target turtlesim__cpp\n'}
+[6.915831] (-) TimerEvent: {}
+[7.016121] (-) TimerEvent: {}
+[7.116522] (-) TimerEvent: {}
+[7.155983] (turtlesim) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/action/detail/rotate_absolute__type_support.c.o\x1b[0m\n'}
+[7.157649] (turtlesim) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/msg/detail/color__functions.c.o\x1b[0m\n'}
+[7.159994] (turtlesim) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/action/detail/rotate_absolute__functions.c.o\x1b[0m\n'}
+[7.160367] (turtlesim) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/msg/detail/color__type_support.c.o\x1b[0m\n'}
+[7.161555] (turtlesim) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/action/detail/rotate_absolute__description.c.o\x1b[0m\n'}
+[7.163322] (turtlesim) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/msg/detail/pose__description.c.o\x1b[0m\n'}
+[7.164241] (turtlesim) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/msg/detail/color__description.c.o\x1b[0m\n'}
+[7.165559] (turtlesim) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/msg/detail/pose__functions.c.o\x1b[0m\n'}
+[7.221248] (-) TimerEvent: {}
+[7.241523] (turtlesim) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/msg/detail/pose__type_support.c.o\x1b[0m\n'}
+[7.264853] (turtlesim) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/kill__description.c.o\x1b[0m\n'}
+[7.277078] (turtlesim) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/kill__functions.c.o\x1b[0m\n'}
+[7.296918] (turtlesim) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/kill__type_support.c.o\x1b[0m\n'}
+[7.302899] (turtlesim) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/set_pen__description.c.o\x1b[0m\n'}
+[7.307866] (turtlesim) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/set_pen__functions.c.o\x1b[0m\n'}
+[7.311807] (turtlesim) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/set_pen__type_support.c.o\x1b[0m\n'}
+[7.321337] (-) TimerEvent: {}
+[7.397140] (turtlesim) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/spawn__description.c.o\x1b[0m\n'}
+[7.409363] (turtlesim) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/teleport_absolute__description.c.o\x1b[0m\n'}
+[7.412356] (turtlesim) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/spawn__functions.c.o\x1b[0m\n'}
+[7.418864] (turtlesim) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/spawn__type_support.c.o\x1b[0m\n'}
+[7.421469] (-) TimerEvent: {}
+[7.471883] (turtlesim) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/teleport_absolute__functions.c.o\x1b[0m\n'}
+[7.518043] (turtlesim) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/teleport_absolute__type_support.c.o\x1b[0m\n'}
+[7.519907] (turtlesim) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/teleport_relative__description.c.o\x1b[0m\n'}
+[7.521598] (-) TimerEvent: {}
+[7.537992] (turtlesim) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/teleport_relative__functions.c.o\x1b[0m\n'}
+[7.538428] (turtlesim) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/teleport_relative__type_support.c.o\x1b[0m\n'}
+[7.621741] (-) TimerEvent: {}
+[7.679545] (turtlesim) StdoutLine: {'line': b'[ 24%] \x1b[32m\x1b[1mLinking C shared library libturtlesim__rosidl_generator_c.so\x1b[0m\n'}
+[7.721859] (-) TimerEvent: {}
+[7.742667] (turtlesim) StdoutLine: {'line': b'[ 24%] Built target turtlesim__rosidl_generator_c\n'}
+[7.764412] (turtlesim) StdoutLine: {'line': b'[ 26%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[7.765063] (turtlesim) StdoutLine: {'line': b'[ 26%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.765310] (turtlesim) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.765514] (turtlesim) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[7.765853] (turtlesim) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[7.769058] (turtlesim) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[7.823192] (-) TimerEvent: {}
+[7.923506] (-) TimerEvent: {}
+[8.023812] (-) TimerEvent: {}
+[8.124917] (-) TimerEvent: {}
+[8.225173] (-) TimerEvent: {}
+[8.325436] (-) TimerEvent: {}
+[8.426718] (-) TimerEvent: {}
+[8.527653] (-) TimerEvent: {}
+[8.630792] (-) TimerEvent: {}
+[8.731068] (-) TimerEvent: {}
+[8.808866] (turtlesim) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/action/rotate_absolute__type_support.cpp.o\x1b[0m\n'}
+[8.809178] (turtlesim) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/msg/color__type_support.cpp.o\x1b[0m\n'}
+[8.822535] (turtlesim) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/msg/pose__type_support.cpp.o\x1b[0m\n'}
+[8.831204] (-) TimerEvent: {}
+[8.931518] (-) TimerEvent: {}
+[8.951940] (turtlesim) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/kill__type_support.cpp.o\x1b[0m\n'}
+[8.991691] (turtlesim) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/set_pen__type_support.cpp.o\x1b[0m\n'}
+[9.023933] (turtlesim) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/spawn__type_support.cpp.o\x1b[0m\n'}
+[9.029611] (turtlesim) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/action/rotate_absolute__type_support.cpp.o\x1b[0m\n'}
+[9.037261] (-) TimerEvent: {}
+[9.072538] (turtlesim) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/teleport_absolute__type_support.cpp.o\x1b[0m\n'}
+[9.137365] (-) TimerEvent: {}
+[9.159036] (turtlesim) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/msg/color__type_support.cpp.o\x1b[0m\n'}
+[9.174271] (turtlesim) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/teleport_relative__type_support.cpp.o\x1b[0m\n'}
+[9.199160] (turtlesim) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/action/detail/rotate_absolute__type_support.cpp.o\x1b[0m\n'}
+[9.226402] (turtlesim) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/msg/pose__type_support.cpp.o\x1b[0m\n'}
+[9.237492] (-) TimerEvent: {}
+[9.287714] (turtlesim) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_c.so\x1b[0m\n'}
+[9.322079] (turtlesim) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/action/detail/rotate_absolute__type_support.c.o\x1b[0m\n'}
+[9.337589] (-) TimerEvent: {}
+[9.380767] (turtlesim) StdoutLine: {'line': b'[ 42%] Built target turtlesim__rosidl_typesupport_c\n'}
+[9.397062] (turtlesim) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/kill__type_support.cpp.o\x1b[0m\n'}
+[9.437723] (-) TimerEvent: {}
+[9.541670] (-) TimerEvent: {}
+[9.569196] (turtlesim) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/msg/detail/color__type_support.c.o\x1b[0m\n'}
+[9.641806] (-) TimerEvent: {}
+[9.697861] (turtlesim) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/msg/detail/pose__type_support.c.o\x1b[0m\n'}
+[9.741948] (-) TimerEvent: {}
+[9.796845] (turtlesim) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/kill__type_support.c.o\x1b[0m\n'}
+[9.842094] (-) TimerEvent: {}
+[9.942286] (turtlesim) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/set_pen__type_support.c.o\x1b[0m\n'}
+[9.942604] (-) TimerEvent: {}
+[10.042941] (-) TimerEvent: {}
+[10.142723] (turtlesim) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/spawn__type_support.c.o\x1b[0m\n'}
+[10.143203] (-) TimerEvent: {}
+[10.243632] (-) TimerEvent: {}
+[10.305701] (turtlesim) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/msg/detail/color__type_support.cpp.o\x1b[0m\n'}
+[10.317484] (turtlesim) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/teleport_absolute__type_support.c.o\x1b[0m\n'}
+[10.345841] (-) TimerEvent: {}
+[10.414899] (turtlesim) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/msg/detail/pose__type_support.cpp.o\x1b[0m\n'}
+[10.445970] (-) TimerEvent: {}
+[10.477726] (turtlesim) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/teleport_relative__type_support.c.o\x1b[0m\n'}
+[10.547570] (-) TimerEvent: {}
+[10.653863] (-) TimerEvent: {}
+[10.662715] (turtlesim) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking C shared library libturtlesim__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[10.755604] (-) TimerEvent: {}
+[10.793985] (turtlesim) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/action/detail/dds_fastrtps/rotate_absolute__type_support.cpp.o\x1b[0m\n'}
+[10.804652] (turtlesim) StdoutLine: {'line': b'[ 52%] Built target turtlesim__rosidl_typesupport_introspection_c\n'}
+[10.856416] (-) TimerEvent: {}
+[10.860228] (turtlesim) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/kill__type_support.cpp.o\x1b[0m\n'}
+[10.906799] (turtlesim) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/msg/detail/dds_fastrtps/color__type_support.cpp.o\x1b[0m\n'}
+[10.959851] (-) TimerEvent: {}
+[11.048209] (turtlesim) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/action/detail/rotate_absolute__type_support_c.cpp.o\x1b[0m\n'}
+[11.060277] (-) TimerEvent: {}
+[11.160720] (-) TimerEvent: {}
+[11.229491] (turtlesim) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/set_pen__type_support.cpp.o\x1b[0m\n'}
+[11.260852] (-) TimerEvent: {}
+[11.363182] (-) TimerEvent: {}
+[11.409041] (turtlesim) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/msg/detail/color__type_support_c.cpp.o\x1b[0m\n'}
+[11.463334] (-) TimerEvent: {}
+[11.565390] (-) TimerEvent: {}
+[11.669777] (-) TimerEvent: {}
+[11.751396] (turtlesim) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/spawn__type_support.cpp.o\x1b[0m\n'}
+[11.769916] (-) TimerEvent: {}
+[11.872852] (-) TimerEvent: {}
+[11.975824] (-) TimerEvent: {}
+[12.076258] (-) TimerEvent: {}
+[12.125325] (turtlesim) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/msg/detail/pose__type_support_c.cpp.o\x1b[0m\n'}
+[12.178210] (-) TimerEvent: {}
+[12.278665] (-) TimerEvent: {}
+[12.379204] (-) TimerEvent: {}
+[12.479645] (-) TimerEvent: {}
+[12.580587] (-) TimerEvent: {}
+[12.692903] (-) TimerEvent: {}
+[12.778013] (turtlesim) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/set_pen__type_support.cpp.o\x1b[0m\n'}
+[12.793038] (-) TimerEvent: {}
+[12.808161] (turtlesim) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/teleport_absolute__type_support.cpp.o\x1b[0m\n'}
+[12.893219] (-) TimerEvent: {}
+[12.893517] (turtlesim) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/kill__type_support_c.cpp.o\x1b[0m\n'}
+[12.993341] (-) TimerEvent: {}
+[13.095844] (-) TimerEvent: {}
+[13.163792] (turtlesim) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/msg/detail/dds_fastrtps/pose__type_support.cpp.o\x1b[0m\n'}
+[13.195971] (-) TimerEvent: {}
+[13.199585] (turtlesim) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/set_pen__type_support_c.cpp.o\x1b[0m\n'}
+[13.296119] (-) TimerEvent: {}
+[13.397872] (-) TimerEvent: {}
+[13.498247] (-) TimerEvent: {}
+[13.600915] (-) TimerEvent: {}
+[13.707827] (-) TimerEvent: {}
+[13.821837] (-) TimerEvent: {}
+[13.823306] (turtlesim) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/spawn__type_support_c.cpp.o\x1b[0m\n'}
+[13.924846] (-) TimerEvent: {}
+[14.025268] (-) TimerEvent: {}
+[14.118965] (turtlesim) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/kill__type_support.cpp.o\x1b[0m\n'}
+[14.125792] (-) TimerEvent: {}
+[14.226227] (-) TimerEvent: {}
+[14.286293] (turtlesim) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/teleport_relative__type_support.cpp.o\x1b[0m\n'}
+[14.321481] (turtlesim) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/spawn__type_support.cpp.o\x1b[0m\n'}
+[14.326886] (-) TimerEvent: {}
+[14.432160] (-) TimerEvent: {}
+[14.532582] (-) TimerEvent: {}
+[14.619137] (turtlesim) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/teleport_absolute__type_support_c.cpp.o\x1b[0m\n'}
+[14.632726] (-) TimerEvent: {}
+[14.733216] (-) TimerEvent: {}
+[14.833693] (-) TimerEvent: {}
+[14.889318] (turtlesim) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/teleport_relative__type_support_c.cpp.o\x1b[0m\n'}
+[14.933866] (-) TimerEvent: {}
+[15.034312] (-) TimerEvent: {}
+[15.135862] (-) TimerEvent: {}
+[15.167475] (turtlesim) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/set_pen__type_support.cpp.o\x1b[0m\n'}
+[15.216847] (turtlesim) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/spawn__type_support.cpp.o\x1b[0m\n'}
+[15.235983] (-) TimerEvent: {}
+[15.336378] (-) TimerEvent: {}
+[15.436780] (-) TimerEvent: {}
+[15.537168] (-) TimerEvent: {}
+[15.563020] (turtlesim) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[15.637319] (-) TimerEvent: {}
+[15.747108] (-) TimerEvent: {}
+[15.820980] (turtlesim) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/teleport_absolute__type_support.cpp.o\x1b[0m\n'}
+[15.850861] (-) TimerEvent: {}
+[15.913093] (turtlesim) StdoutLine: {'line': b'[ 70%] Built target turtlesim__rosidl_typesupport_cpp\n'}
+[15.950984] (-) TimerEvent: {}
+[15.951315] (turtlesim) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/teleport_relative__type_support.cpp.o\x1b[0m\n'}
+[15.989168] (turtlesim) StdoutLine: {'line': b'[ 72%] \x1b[34m\x1b[1mGenerating include/turtlesim/moc_turtle_frame.cpp\x1b[0m\n'}
+[16.051108] (-) TimerEvent: {}
+[16.151603] (-) TimerEvent: {}
+[16.272201] (-) TimerEvent: {}
+[16.372905] (-) TimerEvent: {}
+[16.441571] (turtlesim) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtlesim.cpp.o\x1b[0m\n'}
+[16.475849] (-) TimerEvent: {}
+[16.510403] (turtlesim) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtle.cpp.o\x1b[0m\n'}
+[16.530767] (turtlesim) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtle_frame.cpp.o\x1b[0m\n'}
+[16.575984] (-) TimerEvent: {}
+[16.676358] (-) TimerEvent: {}
+[16.776677] (-) TimerEvent: {}
+[16.880842] (-) TimerEvent: {}
+[16.961041] (turtlesim) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[16.980998] (-) TimerEvent: {}
+[17.082034] (-) TimerEvent: {}
+[17.182438] (-) TimerEvent: {}
+[17.216237] (turtlesim) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/teleport_absolute__type_support.cpp.o\x1b[0m\n'}
+[17.239149] (turtlesim) StdoutLine: {'line': b'[ 77%] Built target turtlesim__rosidl_typesupport_fastrtps_c\n'}
+[17.256898] (turtlesim) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/teleport_relative__type_support.cpp.o\x1b[0m\n'}
+[17.285825] (-) TimerEvent: {}
+[17.311008] (turtlesim) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/turtle_teleop_key.dir/tutorials/teleop_turtle_key.cpp.o\x1b[0m\n'}
+[17.385962] (-) TimerEvent: {}
+[17.401982] (turtlesim) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[17.430813] (turtlesim) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_node.dir/include/turtlesim/moc_turtle_frame.cpp.o\x1b[0m\n'}
+[17.489861] (-) TimerEvent: {}
+[17.590352] (-) TimerEvent: {}
+[17.690816] (-) TimerEvent: {}
+[17.694690] (turtlesim) StdoutLine: {'line': b'[ 80%] Built target turtlesim__rosidl_typesupport_introspection_cpp\n'}
+[17.783822] (turtlesim) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/draw_square.dir/tutorials/draw_square.cpp.o\x1b[0m\n'}
+[17.791123] (-) TimerEvent: {}
+[17.893837] (-) TimerEvent: {}
+[17.994234] (-) TimerEvent: {}
+[18.094588] (-) TimerEvent: {}
+[18.195014] (-) TimerEvent: {}
+[18.295440] (-) TimerEvent: {}
+[18.395857] (-) TimerEvent: {}
+[18.500106] (-) TimerEvent: {}
+[18.600498] (-) TimerEvent: {}
+[18.701023] (-) TimerEvent: {}
+[18.803096] (-) TimerEvent: {}
+[18.903534] (-) TimerEvent: {}
+[19.006022] (-) TimerEvent: {}
+[19.106454] (-) TimerEvent: {}
+[19.206925] (-) TimerEvent: {}
+[19.307381] (-) TimerEvent: {}
+[19.409847] (-) TimerEvent: {}
+[19.467021] (turtlesim) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/mimic.dir/tutorials/mimic.cpp.o\x1b[0m\n'}
+[19.510037] (-) TimerEvent: {}
+[19.612324] (-) TimerEvent: {}
+[19.714999] (-) TimerEvent: {}
+[19.755008] (turtlesim) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[19.815119] (-) TimerEvent: {}
+[19.920883] (-) TimerEvent: {}
+[20.021402] (-) TimerEvent: {}
+[20.121881] (-) TimerEvent: {}
+[20.158893] (turtlesim) StdoutLine: {'line': b'[ 82%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp\n'}
+[20.222027] (-) TimerEvent: {}
+[20.277096] (turtlesim) StdoutLine: {'line': b'[ 82%] Built target turtlesim\n'}
+[20.322143] (-) TimerEvent: {}
+[20.400154] (turtlesim) StdoutLine: {'line': b'[ 82%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[20.422284] (-) TimerEvent: {}
+[20.523854] (-) TimerEvent: {}
+[20.626826] (-) TimerEvent: {}
+[20.733836] (-) TimerEvent: {}
+[20.834284] (-) TimerEvent: {}
+[20.934711] (-) TimerEvent: {}
+[21.035155] (-) TimerEvent: {}
+[21.135609] (-) TimerEvent: {}
+[21.236056] (-) TimerEvent: {}
+[21.339835] (-) TimerEvent: {}
+[21.440325] (-) TimerEvent: {}
+[21.540818] (-) TimerEvent: {}
+[21.641306] (-) TimerEvent: {}
+[21.742123] (-) TimerEvent: {}
+[21.842575] (-) TimerEvent: {}
+[21.943831] (-) TimerEvent: {}
+[22.045832] (-) TimerEvent: {}
+[22.146307] (-) TimerEvent: {}
+[22.249874] (-) TimerEvent: {}
+[22.350411] (-) TimerEvent: {}
+[22.450825] (-) TimerEvent: {}
+[22.551222] (-) TimerEvent: {}
+[22.651577] (-) TimerEvent: {}
+[22.751966] (-) TimerEvent: {}
+[22.853088] (-) TimerEvent: {}
+[22.953521] (-) TimerEvent: {}
+[23.053984] (-) TimerEvent: {}
+[23.155816] (-) TimerEvent: {}
+[23.256205] (-) TimerEvent: {}
+[23.356583] (-) TimerEvent: {}
+[23.457046] (-) TimerEvent: {}
+[23.561040] (-) TimerEvent: {}
+[23.661531] (-) TimerEvent: {}
+[23.764110] (-) TimerEvent: {}
+[23.867832] (-) TimerEvent: {}
+[23.968317] (-) TimerEvent: {}
+[24.068773] (-) TimerEvent: {}
+[24.169180] (-) TimerEvent: {}
+[24.271880] (-) TimerEvent: {}
+[24.372360] (-) TimerEvent: {}
+[24.472798] (-) TimerEvent: {}
+[24.576854] (-) TimerEvent: {}
+[24.677389] (-) TimerEvent: {}
+[24.777809] (-) TimerEvent: {}
+[24.880615] (-) TimerEvent: {}
+[24.981106] (-) TimerEvent: {}
+[25.081536] (-) TimerEvent: {}
+[25.181978] (-) TimerEvent: {}
+[25.282414] (-) TimerEvent: {}
+[25.386856] (-) TimerEvent: {}
+[25.487329] (-) TimerEvent: {}
+[25.587823] (-) TimerEvent: {}
+[25.688275] (-) TimerEvent: {}
+[25.788771] (-) TimerEvent: {}
+[25.889250] (-) TimerEvent: {}
+[25.995900] (-) TimerEvent: {}
+[26.096440] (-) TimerEvent: {}
+[26.199850] (-) TimerEvent: {}
+[26.300675] (-) TimerEvent: {}
+[26.403661] (-) TimerEvent: {}
+[26.504154] (-) TimerEvent: {}
+[26.604601] (-) TimerEvent: {}
+[26.707033] (-) TimerEvent: {}
+[26.807482] (-) TimerEvent: {}
+[26.907988] (-) TimerEvent: {}
+[27.013051] (-) TimerEvent: {}
+[27.113571] (-) TimerEvent: {}
+[27.214076] (-) TimerEvent: {}
+[27.314547] (-) TimerEvent: {}
+[27.416870] (-) TimerEvent: {}
+[27.517370] (-) TimerEvent: {}
+[27.617838] (-) TimerEvent: {}
+[27.721847] (-) TimerEvent: {}
+[27.822255] (-) TimerEvent: {}
+[27.922695] (-) TimerEvent: {}
+[28.023050] (-) TimerEvent: {}
+[28.124831] (-) TimerEvent: {}
+[28.225303] (-) TimerEvent: {}
+[28.325774] (-) TimerEvent: {}
+[28.426195] (-) TimerEvent: {}
+[28.529974] (-) TimerEvent: {}
+[28.630427] (-) TimerEvent: {}
+[28.730948] (-) TimerEvent: {}
+[28.831447] (-) TimerEvent: {}
+[28.931887] (-) TimerEvent: {}
+[29.032334] (-) TimerEvent: {}
+[29.132772] (-) TimerEvent: {}
+[29.233288] (-) TimerEvent: {}
+[29.336363] (-) TimerEvent: {}
+[29.436852] (-) TimerEvent: {}
+[29.537287] (-) TimerEvent: {}
+[29.637721] (-) TimerEvent: {}
+[29.739035] (-) TimerEvent: {}
+[29.841838] (-) TimerEvent: {}
+[29.942298] (-) TimerEvent: {}
+[30.042971] (-) TimerEvent: {}
+[30.143996] (-) TimerEvent: {}
+[30.189075] (turtlesim) StdoutLine: {'line': b'[ 82%] Built target turtlesim__py\n'}
+[30.244290] (-) TimerEvent: {}
+[30.294903] (turtlesim) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/action/_rotate_absolute_s.c.o\x1b[0m\n'}
+[30.344561] (-) TimerEvent: {}
+[30.448486] (-) TimerEvent: {}
+[30.550015] (-) TimerEvent: {}
+[30.652831] (-) TimerEvent: {}
+[30.753262] (-) TimerEvent: {}
+[30.853788] (-) TimerEvent: {}
+[30.954254] (-) TimerEvent: {}
+[31.063854] (-) TimerEvent: {}
+[31.164310] (-) TimerEvent: {}
+[31.264942] (-) TimerEvent: {}
+[31.365963] (-) TimerEvent: {}
+[31.466427] (-) TimerEvent: {}
+[31.566763] (-) TimerEvent: {}
+[31.667114] (-) TimerEvent: {}
+[31.767468] (-) TimerEvent: {}
+[31.867948] (-) TimerEvent: {}
+[31.968614] (-) TimerEvent: {}
+[32.069150] (-) TimerEvent: {}
+[32.169480] (-) TimerEvent: {}
+[32.270390] (-) TimerEvent: {}
+[32.371739] (-) TimerEvent: {}
+[32.442526] (turtlesim) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/msg/_color_s.c.o\x1b[0m\n'}
+[32.471867] (-) TimerEvent: {}
+[32.572417] (-) TimerEvent: {}
+[32.672920] (-) TimerEvent: {}
+[32.773515] (-) TimerEvent: {}
+[32.877841] (-) TimerEvent: {}
+[32.978362] (-) TimerEvent: {}
+[33.079023] (-) TimerEvent: {}
+[33.179881] (-) TimerEvent: {}
+[33.280544] (-) TimerEvent: {}
+[33.381290] (-) TimerEvent: {}
+[33.435769] (turtlesim) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/msg/_pose_s.c.o\x1b[0m\n'}
+[33.481386] (-) TimerEvent: {}
+[33.581800] (-) TimerEvent: {}
+[33.682077] (-) TimerEvent: {}
+[33.782414] (-) TimerEvent: {}
+[33.882779] (-) TimerEvent: {}
+[33.983186] (-) TimerEvent: {}
+[34.083649] (-) TimerEvent: {}
+[34.183885] (-) TimerEvent: {}
+[34.284317] (-) TimerEvent: {}
+[34.384984] (-) TimerEvent: {}
+[34.485407] (-) TimerEvent: {}
+[34.585898] (-) TimerEvent: {}
+[34.686456] (-) TimerEvent: {}
+[34.786948] (-) TimerEvent: {}
+[34.887299] (-) TimerEvent: {}
+[34.937132] (turtlesim) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_kill_s.c.o\x1b[0m\n'}
+[34.988862] (-) TimerEvent: {}
+[35.089352] (-) TimerEvent: {}
+[35.189721] (-) TimerEvent: {}
+[35.291494] (-) TimerEvent: {}
+[35.391980] (-) TimerEvent: {}
+[35.492484] (-) TimerEvent: {}
+[35.594862] (-) TimerEvent: {}
+[35.695339] (-) TimerEvent: {}
+[35.795840] (-) TimerEvent: {}
+[35.897516] (-) TimerEvent: {}
+[35.934827] (turtlesim) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_set_pen_s.c.o\x1b[0m\n'}
+[35.997669] (-) TimerEvent: {}
+[36.100872] (-) TimerEvent: {}
+[36.201312] (-) TimerEvent: {}
+[36.302704] (-) TimerEvent: {}
+[36.403265] (-) TimerEvent: {}
+[36.508849] (-) TimerEvent: {}
+[36.609342] (-) TimerEvent: {}
+[36.717964] (-) TimerEvent: {}
+[36.818435] (-) TimerEvent: {}
+[36.844412] (turtlesim) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_spawn_s.c.o\x1b[0m\n'}
+[36.918601] (-) TimerEvent: {}
+[37.019089] (-) TimerEvent: {}
+[37.119552] (-) TimerEvent: {}
+[37.224045] (-) TimerEvent: {}
+[37.326168] (-) TimerEvent: {}
+[37.429387] (-) TimerEvent: {}
+[37.529863] (-) TimerEvent: {}
+[37.632304] (-) TimerEvent: {}
+[37.735840] (-) TimerEvent: {}
+[37.840106] (-) TimerEvent: {}
+[37.946066] (-) TimerEvent: {}
+[38.046521] (-) TimerEvent: {}
+[38.149156] (-) TimerEvent: {}
+[38.233900] (turtlesim) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_teleport_absolute_s.c.o\x1b[0m\n'}
+[38.249303] (-) TimerEvent: {}
+[38.350846] (-) TimerEvent: {}
+[38.453865] (-) TimerEvent: {}
+[38.554360] (-) TimerEvent: {}
+[38.654842] (-) TimerEvent: {}
+[38.755312] (-) TimerEvent: {}
+[38.863986] (-) TimerEvent: {}
+[38.975647] (-) TimerEvent: {}
+[39.076166] (-) TimerEvent: {}
+[39.078624] (turtlesim) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_teleport_relative_s.c.o\x1b[0m\n'}
+[39.178918] (-) TimerEvent: {}
+[39.281406] (-) TimerEvent: {}
+[39.381992] (-) TimerEvent: {}
+[39.482583] (-) TimerEvent: {}
+[39.586884] (-) TimerEvent: {}
+[39.687437] (-) TimerEvent: {}
+[39.788065] (-) TimerEvent: {}
+[39.888638] (-) TimerEvent: {}
+[39.989293] (-) TimerEvent: {}
+[40.089913] (-) TimerEvent: {}
+[40.190536] (-) TimerEvent: {}
+[40.294875] (-) TimerEvent: {}
+[40.395532] (-) TimerEvent: {}
+[40.487671] (turtlesim) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking C shared library libturtlesim__rosidl_generator_py.so\x1b[0m\n'}
+[40.495807] (-) TimerEvent: {}
+[40.601077] (-) TimerEvent: {}
+[40.702901] (-) TimerEvent: {}
+[40.808056] (-) TimerEvent: {}
+[40.908840] (-) TimerEvent: {}
+[41.023916] (turtlesim) StdoutLine: {'line': b'[ 90%] Built target turtlesim__rosidl_generator_py\n'}
+[41.024653] (-) TimerEvent: {}
+[41.128965] (-) TimerEvent: {}
+[41.211073] (turtlesim) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/turtlesim_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[41.229148] (-) TimerEvent: {}
+[41.329785] (-) TimerEvent: {}
+[41.432534] (-) TimerEvent: {}
+[41.544744] (-) TimerEvent: {}
+[41.645446] (-) TimerEvent: {}
+[41.748576] (-) TimerEvent: {}
+[41.849239] (-) TimerEvent: {}
+[41.951884] (-) TimerEvent: {}
+[42.055036] (-) TimerEvent: {}
+[42.155922] (-) TimerEvent: {}
+[42.195317] (turtlesim) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/turtlesim_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[42.279906] (-) TimerEvent: {}
+[42.393908] (-) TimerEvent: {}
+[42.460651] (turtlesim) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/turtlesim_s__rosidl_typesupport_c.dir/rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[42.498923] (-) TimerEvent: {}
+[42.599681] (-) TimerEvent: {}
+[42.700395] (-) TimerEvent: {}
+[42.805207] (-) TimerEvent: {}
+[42.906404] (-) TimerEvent: {}
+[43.008223] (-) TimerEvent: {}
+[43.109053] (-) TimerEvent: {}
+[43.130153] (turtlesim) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[43.211900] (-) TimerEvent: {}
+[43.313055] (-) TimerEvent: {}
+[43.413799] (-) TimerEvent: {}
+[43.448056] (turtlesim) StdoutLine: {'line': b'[ 94%] Built target turtlesim_s__rosidl_typesupport_fastrtps_c\n'}
+[43.514060] (-) TimerEvent: {}
+[43.615115] (-) TimerEvent: {}
+[43.732906] (-) TimerEvent: {}
+[43.868870] (-) TimerEvent: {}
+[43.879703] (turtlesim) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[43.970265] (-) TimerEvent: {}
+[44.010218] (turtlesim) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/turtlesim/turtlesim_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[44.070445] (-) TimerEvent: {}
+[44.135377] (turtlesim) StdoutLine: {'line': b'[ 96%] Built target turtlesim_s__rosidl_typesupport_introspection_c\n'}
+[44.164200] (turtlesim) StdoutLine: {'line': b'[ 96%] Built target turtlesim_s__rosidl_typesupport_c\n'}
+[44.170627] (-) TimerEvent: {}
+[44.274219] (-) TimerEvent: {}
+[44.374892] (-) TimerEvent: {}
+[44.477903] (-) TimerEvent: {}
+[44.581622] (-) TimerEvent: {}
+[44.683881] (-) TimerEvent: {}
+[44.784551] (-) TimerEvent: {}
+[44.885224] (-) TimerEvent: {}
+[44.985722] (-) TimerEvent: {}
+[45.087999] (-) TimerEvent: {}
+[45.188579] (-) TimerEvent: {}
+[45.206411] (turtlesim) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX executable turtle_teleop_key\x1b[0m\n'}
+[45.288787] (-) TimerEvent: {}
+[45.389262] (-) TimerEvent: {}
+[45.489877] (-) TimerEvent: {}
+[45.590391] (-) TimerEvent: {}
+[45.691026] (-) TimerEvent: {}
+[45.791968] (-) TimerEvent: {}
+[45.893932] (-) TimerEvent: {}
+[45.994605] (-) TimerEvent: {}
+[46.095408] (-) TimerEvent: {}
+[46.185834] (turtlesim) StdoutLine: {'line': b'[ 97%] Built target turtle_teleop_key\n'}
+[46.195594] (-) TimerEvent: {}
+[46.296350] (-) TimerEvent: {}
+[46.397029] (-) TimerEvent: {}
+[46.497662] (-) TimerEvent: {}
+[46.598275] (-) TimerEvent: {}
+[46.698877] (-) TimerEvent: {}
+[46.799883] (-) TimerEvent: {}
+[46.901294] (-) TimerEvent: {}
+[47.001890] (-) TimerEvent: {}
+[47.102349] (-) TimerEvent: {}
+[47.202809] (-) TimerEvent: {}
+[47.303362] (-) TimerEvent: {}
+[47.403934] (-) TimerEvent: {}
+[47.504495] (-) TimerEvent: {}
+[47.605082] (-) TimerEvent: {}
+[47.705621] (-) TimerEvent: {}
+[47.806099] (-) TimerEvent: {}
+[47.906534] (-) TimerEvent: {}
+[48.007115] (-) TimerEvent: {}
+[48.107698] (-) TimerEvent: {}
+[48.209030] (-) TimerEvent: {}
+[48.309500] (-) TimerEvent: {}
+[48.410135] (-) TimerEvent: {}
+[48.510604] (-) TimerEvent: {}
+[48.611201] (-) TimerEvent: {}
+[48.711650] (-) TimerEvent: {}
+[48.812187] (-) TimerEvent: {}
+[48.912709] (-) TimerEvent: {}
+[49.013280] (-) TimerEvent: {}
+[49.113835] (-) TimerEvent: {}
+[49.214317] (-) TimerEvent: {}
+[49.314869] (-) TimerEvent: {}
+[49.415349] (-) TimerEvent: {}
+[49.515871] (-) TimerEvent: {}
+[49.616435] (-) TimerEvent: {}
+[49.717020] (-) TimerEvent: {}
+[49.817578] (-) TimerEvent: {}
+[49.918248] (-) TimerEvent: {}
+[50.018853] (-) TimerEvent: {}
+[50.119390] (-) TimerEvent: {}
+[50.219966] (-) TimerEvent: {}
+[50.320502] (-) TimerEvent: {}
+[50.421075] (-) TimerEvent: {}
+[50.521644] (-) TimerEvent: {}
+[50.622236] (-) TimerEvent: {}
+[50.722835] (-) TimerEvent: {}
+[50.823413] (-) TimerEvent: {}
+[50.924021] (-) TimerEvent: {}
+[51.024533] (-) TimerEvent: {}
+[51.125167] (-) TimerEvent: {}
+[51.225730] (-) TimerEvent: {}
+[51.326316] (-) TimerEvent: {}
+[51.426878] (-) TimerEvent: {}
+[51.527436] (-) TimerEvent: {}
+[51.628028] (-) TimerEvent: {}
+[51.728587] (-) TimerEvent: {}
+[51.829204] (-) TimerEvent: {}
+[51.929856] (-) TimerEvent: {}
+[52.031880] (-) TimerEvent: {}
+[52.132521] (-) TimerEvent: {}
+[52.233243] (-) TimerEvent: {}
+[52.333932] (-) TimerEvent: {}
+[52.437228] (-) TimerEvent: {}
+[52.537891] (-) TimerEvent: {}
+[52.638502] (-) TimerEvent: {}
+[52.739178] (-) TimerEvent: {}
+[52.839855] (-) TimerEvent: {}
+[52.941626] (-) TimerEvent: {}
+[53.042246] (-) TimerEvent: {}
+[53.142894] (-) TimerEvent: {}
+[53.243497] (-) TimerEvent: {}
+[53.344133] (-) TimerEvent: {}
+[53.447444] (-) TimerEvent: {}
+[53.548598] (-) TimerEvent: {}
+[53.653850] (-) TimerEvent: {}
+[53.754521] (-) TimerEvent: {}
+[53.855108] (-) TimerEvent: {}
+[53.955680] (-) TimerEvent: {}
+[54.056435] (-) TimerEvent: {}
+[54.157257] (-) TimerEvent: {}
+[54.257882] (-) TimerEvent: {}
+[54.360852] (-) TimerEvent: {}
+[54.461442] (-) TimerEvent: {}
+[54.562797] (-) TimerEvent: {}
+[54.663585] (-) TimerEvent: {}
+[54.764273] (-) TimerEvent: {}
+[54.865691] (-) TimerEvent: {}
+[54.966257] (-) TimerEvent: {}
+[55.066803] (-) TimerEvent: {}
+[55.167328] (-) TimerEvent: {}
+[55.267867] (-) TimerEvent: {}
+[55.368373] (-) TimerEvent: {}
+[55.468881] (-) TimerEvent: {}
+[55.569623] (-) TimerEvent: {}
+[55.670172] (-) TimerEvent: {}
+[55.770692] (-) TimerEvent: {}
+[55.871214] (-) TimerEvent: {}
+[55.971720] (-) TimerEvent: {}
+[56.072741] (-) TimerEvent: {}
+[56.173542] (-) TimerEvent: {}
+[56.274143] (-) TimerEvent: {}
+[56.374797] (-) TimerEvent: {}
+[56.475380] (-) TimerEvent: {}
+[56.575984] (-) TimerEvent: {}
+[56.676584] (-) TimerEvent: {}
+[56.777160] (-) TimerEvent: {}
+[56.877678] (-) TimerEvent: {}
+[56.978232] (-) TimerEvent: {}
+[57.078784] (-) TimerEvent: {}
+[57.179279] (-) TimerEvent: {}
+[57.279799] (-) TimerEvent: {}
+[57.380302] (-) TimerEvent: {}
+[57.480824] (-) TimerEvent: {}
+[57.581301] (-) TimerEvent: {}
+[57.681839] (-) TimerEvent: {}
+[57.782372] (-) TimerEvent: {}
+[57.882881] (-) TimerEvent: {}
+[57.983398] (-) TimerEvent: {}
+[58.083868] (-) TimerEvent: {}
+[58.184407] (-) TimerEvent: {}
+[58.284959] (-) TimerEvent: {}
+[58.385469] (-) TimerEvent: {}
+[58.485990] (-) TimerEvent: {}
+[58.586557] (-) TimerEvent: {}
+[58.687547] (-) TimerEvent: {}
+[58.788086] (-) TimerEvent: {}
+[58.888625] (-) TimerEvent: {}
+[58.989799] (-) TimerEvent: {}
+[59.090338] (-) TimerEvent: {}
+[59.190880] (-) TimerEvent: {}
+[59.291505] (-) TimerEvent: {}
+[59.392133] (-) TimerEvent: {}
+[59.492722] (-) TimerEvent: {}
+[59.593276] (-) TimerEvent: {}
+[59.693790] (-) TimerEvent: {}
+[59.725921] (turtlesim) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking CXX executable draw_square\x1b[0m\n'}
+[59.793940] (-) TimerEvent: {}
+[59.894494] (-) TimerEvent: {}
+[59.995120] (-) TimerEvent: {}
+[60.095712] (-) TimerEvent: {}
+[60.196342] (-) TimerEvent: {}
+[60.296971] (-) TimerEvent: {}
+[60.397524] (-) TimerEvent: {}
+[60.498085] (-) TimerEvent: {}
+[60.598613] (-) TimerEvent: {}
+[60.699184] (-) TimerEvent: {}
+[60.706970] (turtlesim) StdoutLine: {'line': b'[ 99%] \x1b[32m\x1b[1mLinking CXX executable mimic\x1b[0m\n'}
+[60.799361] (-) TimerEvent: {}
+[60.828951] (turtlesim) StdoutLine: {'line': b'[ 99%] Built target draw_square\n'}
+[60.899521] (-) TimerEvent: {}
+[61.000630] (-) TimerEvent: {}
+[61.101240] (-) TimerEvent: {}
+[61.201914] (-) TimerEvent: {}
+[61.302517] (-) TimerEvent: {}
+[61.403200] (-) TimerEvent: {}
+[61.503805] (-) TimerEvent: {}
+[61.604302] (-) TimerEvent: {}
+[61.704855] (-) TimerEvent: {}
+[61.805384] (-) TimerEvent: {}
+[61.905950] (-) TimerEvent: {}
+[62.006632] (turtlesim) StdoutLine: {'line': b'[ 99%] Built target mimic\n'}
+[62.007232] (-) TimerEvent: {}
+[62.107733] (-) TimerEvent: {}
+[62.208278] (-) TimerEvent: {}
+[62.308818] (-) TimerEvent: {}
+[62.409366] (-) TimerEvent: {}
+[62.509873] (-) TimerEvent: {}
+[62.610374] (-) TimerEvent: {}
+[62.710878] (-) TimerEvent: {}
+[62.811413] (-) TimerEvent: {}
+[62.911923] (-) TimerEvent: {}
+[63.012422] (-) TimerEvent: {}
+[63.112939] (-) TimerEvent: {}
+[63.213421] (-) TimerEvent: {}
+[63.313875] (-) TimerEvent: {}
+[63.414339] (-) TimerEvent: {}
+[63.514829] (-) TimerEvent: {}
+[63.615342] (-) TimerEvent: {}
+[63.715854] (-) TimerEvent: {}
+[63.816305] (-) TimerEvent: {}
+[63.916809] (-) TimerEvent: {}
+[64.017228] (-) TimerEvent: {}
+[64.117627] (-) TimerEvent: {}
+[64.218079] (-) TimerEvent: {}
+[64.318569] (-) TimerEvent: {}
+[64.419108] (-) TimerEvent: {}
+[64.519536] (-) TimerEvent: {}
+[64.620048] (-) TimerEvent: {}
+[64.720429] (-) TimerEvent: {}
+[64.821049] (-) TimerEvent: {}
+[64.921436] (-) TimerEvent: {}
+[65.021827] (-) TimerEvent: {}
+[65.122207] (-) TimerEvent: {}
+[65.222595] (-) TimerEvent: {}
+[65.323032] (-) TimerEvent: {}
+[65.423408] (-) TimerEvent: {}
+[65.523788] (-) TimerEvent: {}
+[65.624104] (-) TimerEvent: {}
+[65.724459] (-) TimerEvent: {}
+[65.824810] (-) TimerEvent: {}
+[65.925179] (-) TimerEvent: {}
+[66.025577] (-) TimerEvent: {}
+[66.125930] (-) TimerEvent: {}
+[66.226253] (-) TimerEvent: {}
+[66.326576] (-) TimerEvent: {}
+[66.426924] (-) TimerEvent: {}
+[66.527237] (-) TimerEvent: {}
+[66.627577] (-) TimerEvent: {}
+[66.727920] (-) TimerEvent: {}
+[66.828232] (-) TimerEvent: {}
+[66.928549] (-) TimerEvent: {}
+[67.028859] (-) TimerEvent: {}
+[67.129159] (-) TimerEvent: {}
+[67.229463] (-) TimerEvent: {}
+[67.329811] (-) TimerEvent: {}
+[67.430133] (-) TimerEvent: {}
+[67.530430] (-) TimerEvent: {}
+[67.630789] (-) TimerEvent: {}
+[67.731097] (-) TimerEvent: {}
+[67.831394] (-) TimerEvent: {}
+[67.931732] (-) TimerEvent: {}
+[68.032165] (-) TimerEvent: {}
+[68.132527] (-) TimerEvent: {}
+[68.232965] (-) TimerEvent: {}
+[68.333392] (-) TimerEvent: {}
+[68.433836] (-) TimerEvent: {}
+[68.534158] (-) TimerEvent: {}
+[68.634531] (-) TimerEvent: {}
+[68.734856] (-) TimerEvent: {}
+[68.835214] (-) TimerEvent: {}
+[68.935661] (-) TimerEvent: {}
+[69.036088] (-) TimerEvent: {}
+[69.136497] (-) TimerEvent: {}
+[69.236835] (-) TimerEvent: {}
+[69.328403] (turtlesim) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtlesim_node\x1b[0m\n'}
+[69.336960] (-) TimerEvent: {}
+[69.437308] (-) TimerEvent: {}
+[69.537689] (-) TimerEvent: {}
+[69.638123] (-) TimerEvent: {}
+[69.738694] (-) TimerEvent: {}
+[69.839119] (-) TimerEvent: {}
+[69.939459] (-) TimerEvent: {}
+[70.039865] (-) TimerEvent: {}
+[70.140389] (-) TimerEvent: {}
+[70.240794] (-) TimerEvent: {}
+[70.341261] (-) TimerEvent: {}
+[70.441680] (-) TimerEvent: {}
+[70.542118] (-) TimerEvent: {}
+[70.642566] (-) TimerEvent: {}
+[70.742942] (-) TimerEvent: {}
+[70.843353] (-) TimerEvent: {}
+[70.943708] (-) TimerEvent: {}
+[71.044130] (-) TimerEvent: {}
+[71.144521] (-) TimerEvent: {}
+[71.244938] (-) TimerEvent: {}
+[71.345325] (-) TimerEvent: {}
+[71.445728] (-) TimerEvent: {}
+[71.546156] (-) TimerEvent: {}
+[71.646561] (-) TimerEvent: {}
+[71.746909] (-) TimerEvent: {}
+[71.847313] (-) TimerEvent: {}
+[71.947701] (-) TimerEvent: {}
+[72.048066] (-) TimerEvent: {}
+[72.148476] (-) TimerEvent: {}
+[72.249027] (-) TimerEvent: {}
+[72.349496] (-) TimerEvent: {}
+[72.449906] (-) TimerEvent: {}
+[72.550332] (-) TimerEvent: {}
+[72.650857] (-) TimerEvent: {}
+[72.751280] (-) TimerEvent: {}
+[72.851645] (-) TimerEvent: {}
+[72.930981] (turtlesim) StdoutLine: {'line': b'[100%] Built target turtlesim_node\n'}
+[72.951822] (-) TimerEvent: {}
+[72.953965] (turtlesim) CommandEnded: {'returncode': 0}
+[73.051942] (-) TimerEvent: {}
+[73.152489] (-) TimerEvent: {}
+[73.252819] (-) TimerEvent: {}
+[73.312192] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'install'}
+[73.330039] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/build/turtlesim'], 'cwd': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/build/turtlesim', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US', 'USER': 'agusb', 'XDG_SEAT': 'seat0', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_wait_set/lib:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/agusb', 'OLDPWD': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/src', 'DESKTOP_SESSION': 'cinnamon', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'CINNAMON_VERSION': '6.2.9', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'agusb', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': 'c2', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/agusb-Inspiron-5584:@/tmp/.ICE-unix/1423,unix/agusb-Inspiron-5584:/tmp/.ICE-unix/1423', 'GDM_LANG': 'en_US', 'GTK3_MODULES': 'xapp-gtk3-module', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/c1a27e21_23e6_4c3e_9b6f_4e306d07de2d', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'X-Cinnamon', 'XDG_SESSION_DESKTOP': 'cinnamon', 'XAUTHORITY': '/home/agusb/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.118', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/agusb', 'AMENT_PREFIX_PATH': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/launch_testing_examples:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_service:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_publisher:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_client:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_action_server:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_action_client:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_guard_conditions:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_executors:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_wait_set:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_timer:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_service:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_composition:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_client:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_cbg_executor:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_async_client:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'cinnamon', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'XDG_VTNR': '7', 'PWD': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/build/turtlesim', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-cinnamon:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/cinnamon:/usr/share/gnome:/home/agusb/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share', 'PYTHONPATH': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/launch_testing_examples:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/launch_testing_examples/lib/python3.12/site-packages:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/examples_rclpy_pointcloud_publisher:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.12/site-packages:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/examples_rclpy_minimal_subscriber:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.12/site-packages:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/examples_rclpy_minimal_service:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.12/site-packages:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/examples_rclpy_minimal_publisher:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.12/site-packages:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/examples_rclpy_minimal_client:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.12/site-packages:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/examples_rclpy_minimal_action_server:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.12/site-packages:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/examples_rclpy_minimal_action_client:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.12/site-packages:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/examples_rclpy_guard_conditions:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.12/site-packages:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/build/examples_rclpy_executors:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_executors/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_wait_set:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_timer:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_service:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_composition:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_client:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_cbg_executor:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclcpp_async_client:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/launch_testing_examples:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_service:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_publisher:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_client:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_action_server:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_minimal_action_client:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_guard_conditions:/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy'}), 'shell': False}
+[73.346425] (turtlesim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[73.347440] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/ament_index/resource_index/rosidl_interfaces/turtlesim\n'}
+[73.347910] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/turtlesim/action/RotateAbsolute.json\n'}
+[73.348374] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/turtlesim/msg/Color.json\n'}
+[73.348691] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/turtlesim/msg/Pose.json\n'}
+[73.349050] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/turtlesim/srv/Kill.json\n'}
+[73.349427] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/turtlesim/srv/SetPen.json\n'}
+[73.349724] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/turtlesim/srv/Spawn.json\n'}
+[73.350139] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.json\n'}
+[73.350498] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative.json\n'}
+[73.350875] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[73.351219] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[73.351541] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[73.351816] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.c\n'}
+[73.352134] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__description.c\n'}
+[73.352368] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.h\n'}
+[73.352564] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.h\n'}
+[73.352773] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.h\n'}
+[73.352927] (-) TimerEvent: {}
+[73.353130] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.h\n'}
+[73.353449] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.h\n'}
+[73.353768] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__description.c\n'}
+[73.354088] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.c\n'}
+[73.354415] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.h\n'}
+[73.354730] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.h\n'}
+[73.355015] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.h\n'}
+[73.355352] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.h\n'}
+[73.355659] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.c\n'}
+[73.355948] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.c\n'}
+[73.356186] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.h\n'}
+[73.356431] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.c\n'}
+[73.356816] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.c\n'}
+[73.357208] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.c\n'}
+[73.357539] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.c\n'}
+[73.357969] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.h\n'}
+[73.358390] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.h\n'}
+[73.358717] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__description.c\n'}
+[73.359061] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__description.c\n'}
+[73.359430] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.c\n'}
+[73.360190] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__description.c\n'}
+[73.360586] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.h\n'}
+[73.360924] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.h\n'}
+[73.361188] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.c\n'}
+[73.361506] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.h\n'}
+[73.361724] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.h\n'}
+[73.361930] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.h\n'}
+[73.362127] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/kill.h\n'}
+[73.362327] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.h\n'}
+[73.362498] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.h\n'}
+[73.362697] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[73.363044] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[73.363235] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.h\n'}
+[73.363407] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.h\n'}
+[73.363684] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.h\n'}
+[73.363901] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.c\n'}
+[73.364131] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.c\n'}
+[73.364577] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__description.c\n'}
+[73.365071] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.h\n'}
+[73.365362] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[73.365636] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/msg/color.h\n'}
+[73.366020] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[73.366282] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.h\n'}
+[73.366546] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__description.c\n'}
+[73.366840] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.h\n'}
+[73.367019] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.h\n'}
+[73.367224] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.c\n'}
+[73.367364] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__description.c\n'}
+[73.367595] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.h\n'}
+[73.367832] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.c\n'}
+[73.368140] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.h\n'}
+[73.368470] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.h\n'}
+[73.368726] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.c\n'}
+[73.369146] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.c\n'}
+[73.369577] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_generator_c__visibility_control.h\n'}
+[73.369880] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/msg/pose.h\n'}
+[73.371177] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/turtlesim/environment/library_path.sh\n'}
+[73.371878] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/turtlesim/environment/library_path.dsv\n'}
+[73.372498] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so\n'}
+[73.374179] (turtlesim) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so" to ""\n'}
+[73.374574] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[73.374950] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[73.375133] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[73.375270] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h\n'}
+[73.375529] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[73.375799] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h\n'}
+[73.376098] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h\n'}
+[73.376458] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_c.h\n'}
+[73.376818] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[73.377074] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[73.377337] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[73.377631] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[73.377892] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[73.378121] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_c.h\n'}
+[73.378367] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_c.h\n'}
+[73.378762] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[73.379253] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so\n'}
+[73.380322] (turtlesim) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[73.380657] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[73.380939] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[73.381207] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[73.381406] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__traits.hpp\n'}
+[73.381702] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.hpp\n'}
+[73.381892] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__builder.hpp\n'}
+[73.382108] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.hpp\n'}
+[73.382246] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__builder.hpp\n'}
+[73.382481] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.hpp\n'}
+[73.382709] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.hpp\n'}
+[73.383101] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__builder.hpp\n'}
+[73.383448] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.hpp\n'}
+[73.383940] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__traits.hpp\n'}
+[73.384303] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.hpp\n'}
+[73.384611] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__traits.hpp\n'}
+[73.385140] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.hpp\n'}
+[73.385533] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__builder.hpp\n'}
+[73.385922] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__builder.hpp\n'}
+[73.386311] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.hpp\n'}
+[73.386688] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__traits.hpp\n'}
+[73.387147] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__traits.hpp\n'}
+[73.387458] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.hpp\n'}
+[73.387879] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.hpp\n'}
+[73.388355] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.hpp\n'}
+[73.388665] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.hpp\n'}
+[73.388967] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.hpp\n'}
+[73.389241] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/kill.hpp\n'}
+[73.389513] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.hpp\n'}
+[73.390025] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[73.390474] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[73.390652] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__traits.hpp\n'}
+[73.390915] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.hpp\n'}
+[73.391245] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__builder.hpp\n'}
+[73.391566] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.hpp\n'}
+[73.391920] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.hpp\n'}
+[73.392250] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[73.392587] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/msg/pose.hpp\n'}
+[73.392944] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[73.393249] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__builder.hpp\n'}
+[73.393442] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__builder.hpp\n'}
+[73.393681] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.hpp\n'}
+[73.393950] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.hpp\n'}
+[73.394153] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.hpp\n'}
+[73.394351] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.hpp\n'}
+[73.394534] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__traits.hpp\n'}
+[73.394715] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__traits.hpp\n'}
+[73.394962] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[73.395247] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/msg/color.hpp\n'}
+[73.395630] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[73.395826] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[73.396019] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[73.396221] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/dds_fastrtps\n'}
+[73.396402] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[73.396726] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[73.397091] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[73.397416] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[73.397676] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[73.397933] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[73.398129] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[73.398320] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/dds_fastrtps\n'}
+[73.398540] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[73.398831] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[73.399047] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[73.399279] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/dds_fastrtps\n'}
+[73.399482] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[73.399686] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[73.400028] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[73.400541] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so\n'}
+[73.403355] (turtlesim) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[73.403797] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[73.404122] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[73.404267] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[73.404415] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.c\n'}
+[73.404602] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_c.h\n'}
+[73.404909] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.c\n'}
+[73.405356] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_c.h\n'}
+[73.405742] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.c\n'}
+[73.406322] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.c\n'}
+[73.406833] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_c.h\n'}
+[73.407200] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_c.h\n'}
+[73.407564] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_c.h\n'}
+[73.407908] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.c\n'}
+[73.408451] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[73.408722] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[73.409040] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h\n'}
+[73.409306] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.c\n'}
+[73.409924] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[73.410198] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[73.410505] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_c.h\n'}
+[73.410768] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.c\n'}
+[73.411014] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_c.h\n'}
+[73.411372] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.c\n'}
+[73.411773] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[73.412328] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so\n'}
+[73.413255] (turtlesim) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so" to ""\n'}
+[73.413597] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so\n'}
+[73.414051] (turtlesim) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so" to ""\n'}
+[73.414247] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[73.414447] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[73.414638] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[73.414836] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[73.414992] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.cpp\n'}
+[73.415164] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.cpp\n'}
+[73.415419] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_cpp.hpp\n'}
+[73.415716] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_cpp.hpp\n'}
+[73.416087] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.cpp\n'}
+[73.416567] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.cpp\n'}
+[73.417046] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.cpp\n'}
+[73.417574] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_cpp.hpp\n'}
+[73.417977] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_cpp.hpp\n'}
+[73.418345] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[73.418688] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[73.418924] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.cpp\n'}
+[73.419410] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[73.419736] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[73.420078] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[73.420236] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.cpp\n'}
+[73.420509] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[73.420860] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp\n'}
+[73.421239] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.cpp\n'}
+[73.421721] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so\n'}
+[73.424234] (turtlesim) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[73.424657] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so\n'}
+[73.425988] (turtlesim) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so" to ""\n'}
+[73.426451] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/turtlesim/environment/pythonpath.sh\n'}
+[73.426814] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/turtlesim/environment/pythonpath.dsv\n'}
+[73.427130] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim-1.8.3-py3.12.egg-info\n'}
+[73.427457] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim-1.8.3-py3.12.egg-info/top_level.txt\n'}
+[73.427762] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim-1.8.3-py3.12.egg-info/PKG-INFO\n'}
+[73.428130] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim-1.8.3-py3.12.egg-info/dependency_links.txt\n'}
+[73.428416] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim-1.8.3-py3.12.egg-info/SOURCES.txt\n'}
+[73.428927] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim\n'}
+[73.429251] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[73.429633] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.so\n'}
+[73.430091] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/srv\n'}
+[73.430416] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/srv/_kill.py\n'}
+[73.430639] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/srv/_teleport_relative.py\n'}
+[73.430960] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/srv/_kill_s.c\n'}
+[73.431226] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/srv/_teleport_absolute_s.c\n'}
+[73.431452] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/srv/_spawn_s.c\n'}
+[73.431715] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/srv/_teleport_absolute.py\n'}
+[73.432019] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/srv/_spawn.py\n'}
+[73.432356] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/srv/_set_pen_s.c\n'}
+[73.432718] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/srv/_set_pen.py\n'}
+[73.433262] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/srv/_teleport_relative_s.c\n'}
+[73.433616] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/srv/__init__.py\n'}
+[73.433963] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[73.434398] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/action\n'}
+[73.434673] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/action/_rotate_absolute.py\n'}
+[73.435218] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/action/_rotate_absolute_s.c\n'}
+[73.435765] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/action/__init__.py\n'}
+[73.436200] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.so\n'}
+[73.436561] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/msg\n'}
+[73.436769] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/msg/_pose.py\n'}
+[73.437087] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/msg/_color.py\n'}
+[73.437414] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/msg/_color_s.c\n'}
+[73.437712] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/msg/_pose_s.c\n'}
+[73.438150] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/msg/__init__.py\n'}
+[73.438494] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.so\n'}
+[73.438925] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_c.c\n'}
+[73.439431] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/__init__.py\n'}
+[73.453046] (-) TimerEvent: {}
+[73.553388] (-) TimerEvent: {}
+[73.633211] (turtlesim) StdoutLine: {'line': b"Listing '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim'...\n"}
+[73.634448] (turtlesim) StdoutLine: {'line': b"Compiling '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/__init__.py'...\n"}
+[73.634894] (turtlesim) StdoutLine: {'line': b"Listing '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/action'...\n"}
+[73.635229] (turtlesim) StdoutLine: {'line': b"Compiling '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/action/__init__.py'...\n"}
+[73.635529] (turtlesim) StdoutLine: {'line': b"Compiling '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/action/_rotate_absolute.py'...\n"}
+[73.635852] (turtlesim) StdoutLine: {'line': b"Listing '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/msg'...\n"}
+[73.636157] (turtlesim) StdoutLine: {'line': b"Compiling '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/msg/__init__.py'...\n"}
+[73.636437] (turtlesim) StdoutLine: {'line': b"Compiling '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/msg/_color.py'...\n"}
+[73.636710] (turtlesim) StdoutLine: {'line': b"Compiling '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/msg/_pose.py'...\n"}
+[73.637028] (turtlesim) StdoutLine: {'line': b"Listing '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/srv'...\n"}
+[73.637304] (turtlesim) StdoutLine: {'line': b"Compiling '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/srv/__init__.py'...\n"}
+[73.637565] (turtlesim) StdoutLine: {'line': b"Compiling '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/srv/_kill.py'...\n"}
+[73.637853] (turtlesim) StdoutLine: {'line': b"Compiling '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/srv/_set_pen.py'...\n"}
+[73.638029] (turtlesim) StdoutLine: {'line': b"Compiling '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/srv/_spawn.py'...\n"}
+[73.638206] (turtlesim) StdoutLine: {'line': b"Compiling '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/srv/_teleport_absolute.py'...\n"}
+[73.638352] (turtlesim) StdoutLine: {'line': b"Compiling '/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/srv/_teleport_relative.py'...\n"}
+[73.647722] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.so\n'}
+[73.648292] (turtlesim) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[73.648716] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.so\n'}
+[73.649308] (turtlesim) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[73.649835] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.so\n'}
+[73.650625] (turtlesim) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.so" to ""\n'}
+[73.651092] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/libturtlesim__rosidl_generator_py.so\n'}
+[73.651845] (turtlesim) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/libturtlesim__rosidl_generator_py.so" to ""\n'}
+[73.652383] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/turtlesim/action/RotateAbsolute.idl\n'}
+[73.653073] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/turtlesim/msg/Color.idl\n'}
+[73.653395] (-) TimerEvent: {}
+[73.653666] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/turtlesim/msg/Pose.idl\n'}
+[73.654051] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/turtlesim/srv/Kill.idl\n'}
+[73.654468] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/turtlesim/srv/SetPen.idl\n'}
+[73.654958] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/turtlesim/srv/Spawn.idl\n'}
+[73.655911] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.idl\n'}
+[73.656411] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative.idl\n'}
+[73.656828] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/turtlesim/action/RotateAbsolute.action\n'}
+[73.657235] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/turtlesim/msg/Color.msg\n'}
+[73.657627] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/turtlesim/msg/Pose.msg\n'}
+[73.658284] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/turtlesim/srv/Kill.srv\n'}
+[73.658735] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/turtlesim/srv/SetPen.srv\n'}
+[73.659279] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/turtlesim/srv/Spawn.srv\n'}
+[73.659934] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.srv\n'}
+[73.660396] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative.srv\n'}
+[73.661102] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/turtlesim/turtlesim_node\n'}
+[73.678130] (turtlesim) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/turtlesim/turtlesim_node" to ""\n'}
+[73.678475] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/turtlesim/turtle_teleop_key\n'}
+[73.681207] (turtlesim) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/turtlesim/turtle_teleop_key" to ""\n'}
+[73.681646] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/turtlesim/draw_square\n'}
+[73.690524] (turtlesim) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/turtlesim/draw_square" to ""\n'}
+[73.690915] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/turtlesim/mimic\n'}
+[73.698717] (turtlesim) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/lib/turtlesim/mimic" to ""\n'}
+[73.699253] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/turtlesim/images\n'}
+[73.699563] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/turtlesim/images/dashing.png\n'}
+[73.699933] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/turtlesim/images/ardent.png\n'}
+[73.700280] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/turtlesim/images/jazzy.png\n'}
+[73.700722] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/turtlesim/images/bouncy.png\n'}
+[73.701120] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/turtlesim/images/rolling.png\n'}
+[73.701515] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/turtlesim/images/galactic.png\n'}
+[73.701875] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/turtlesim/images/humble.png\n'}
+[73.702214] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/turtlesim/images/iron.png\n'}
+[73.702506] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/turtlesim/images/crystal.png\n'}
+[73.702872] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/turtlesim/images/eloquent.png\n'}
+[73.703259] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/turtlesim/images/foxy.png\n'}
+[73.703534] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/turtlesim/launch\n'}
+[73.703855] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/turtlesim/launch/multisim.launch.py\n'}
+[73.704193] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim\n'}
+[73.704463] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim\n'}
+[73.705562] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh\n'}
+[73.706118] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/turtlesim/environment/ament_prefix_path.dsv\n'}
+[73.706582] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/turtlesim/environment/path.sh\n'}
+[73.707070] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/turtlesim/environment/path.dsv\n'}
+[73.707598] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/turtlesim/local_setup.bash\n'}
+[73.708069] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/turtlesim/local_setup.sh\n'}
+[73.708521] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/turtlesim/local_setup.zsh\n'}
+[73.708972] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/turtlesim/local_setup.dsv\n'}
+[73.709408] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/turtlesim/package.dsv\n'}
+[73.709987] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/ament_index/resource_index/packages/turtlesim\n'}
+[73.710440] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport.cmake\n'}
+[73.710987] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport-noconfig.cmake\n'}
+[73.711426] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[73.711817] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[73.712162] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cppExport.cmake\n'}
+[73.712527] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[73.712867] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[73.713249] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport.cmake\n'}
+[73.713616] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[73.713987] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport.cmake\n'}
+[73.714312] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[73.714645] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[73.715056] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[73.715398] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport.cmake\n'}
+[73.715774] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[73.716273] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport.cmake\n'}
+[73.716727] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport-noconfig.cmake\n'}
+[73.717280] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake-extras.cmake\n'}
+[73.717779] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[73.718243] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[73.718663] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[73.719179] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[73.719527] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[73.719940] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[73.720453] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake\n'}
+[73.720859] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake\n'}
+[73.721271] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/agusb/Desktop/ROS2-Teleoperacion-Wifi/sample_ws/install/turtlesim/share/turtlesim/package.xml\n'}
+[73.725481] (turtlesim) CommandEnded: {'returncode': 0}
+[73.753635] (-) TimerEvent: {}
+[73.855087] (-) TimerEvent: {}
+[73.955603] (-) TimerEvent: {}
+[74.055961] (-) TimerEvent: {}
+[74.156371] (-) TimerEvent: {}
+[74.224970] (turtlesim) JobEnded: {'identifier': 'turtlesim', 'rc': 0}
+[74.226517] (-) EventReactorShutdown: {}

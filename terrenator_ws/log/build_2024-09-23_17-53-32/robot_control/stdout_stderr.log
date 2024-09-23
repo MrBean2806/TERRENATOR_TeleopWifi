@@ -1,0 +1,32 @@
+[  2%] Built target robot_control__rosidl_generator_type_description
+[  2%] Built target ament_cmake_python_copy_robot_control
+[  5%] [32mBuilding CXX object CMakeFiles/robot_uart_controller.dir/src/robot_uart_controller.cpp.o[0m
+[  8%] Built target robot_control__cpp
+[ 22%] Built target robot_control__rosidl_generator_c
+[ 30%] Built target robot_control__rosidl_typesupport_c
+[ 38%] Built target robot_control__rosidl_typesupport_introspection_c
+[ 47%] Built target robot_control__rosidl_typesupport_fastrtps_c
+[ 55%] Built target robot_control__rosidl_typesupport_cpp
+[ 63%] Built target robot_control__rosidl_typesupport_fastrtps_cpp
+[ 72%] Built target robot_control__rosidl_typesupport_introspection_cpp
+[ 72%] Built target robot_control
+[ 75%] Built target robot_control__py
+[ 80%] Built target robot_control__rosidl_generator_py
+[ 86%] Built target robot_control_s__rosidl_typesupport_c
+[ 91%] Built target robot_control_s__rosidl_typesupport_introspection_c
+[ 97%] Built target robot_control_s__rosidl_typesupport_fastrtps_c
+[01m[K/home/agusb/Desktop/ROS2-Teleoperacion-Wifi/terrenator_ws/src/robot_control/src/robot_uart_controller.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Krobot_control/msg/trama_datos.hpp: No such file or directory
+    5 | #include [01;31m[K<robot_control/msg/trama_datos.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/robot_uart_controller.dir/build.make:76: CMakeFiles/robot_uart_controller.dir/src/robot_uart_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:623: CMakeFiles/robot_uart_controller.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+running egg_info
+writing robot_control.egg-info/PKG-INFO
+writing dependency_links to robot_control.egg-info/dependency_links.txt
+writing top-level names to robot_control.egg-info/top_level.txt
+reading manifest file 'robot_control.egg-info/SOURCES.txt'
+writing manifest file 'robot_control.egg-info/SOURCES.txt'
+[ 97%] Built target ament_cmake_python_build_robot_control_egg
+gmake: *** [Makefile:146: all] Error 2
